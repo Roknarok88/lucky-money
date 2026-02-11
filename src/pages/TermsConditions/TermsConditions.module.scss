@@ -1,0 +1,38 @@
+.header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.terms-content {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.3;
+
+  p {
+    text-align: justify-all;
+  }
+
+  h3 {
+    margin: 24px 0;
+    font-size: 18px;
+  }
+
+  ul {
+    margin: 12px auto;
+    margin-left: 24px;
+    li {
+      margin-bottom: 4px;
+    }
+  }
+
+}
+
+
+
+@media screen and (max-width: 512px) {
+  .header {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,43 @@
+/********** Variables ********/
+
+:root {
+  /* 1. Dimensions */
+  --container-side-padding: 14px;
+  --dropdown-radius: 8px;
+  --navbar-height: 80px;
+  --border-radius: 24px;
+  --text-max-size: 600px;
+
+  /* 2. Colors */
+  --color-primary: #010101;
+  --color-secondary: #fff;
+  --color-tertiary: #ffbf00;
+  --color-tertiary-old-gold: #C67C4E;
+  --color-light-tertiary: #C67C4E;
+  --color-light-black: #626262;
+  --color-dark-blue: #2d355d;
+  --color-light-blue: #c6c1c1;
+  --color-blue: #097aba;
+  --color-gray: #eeeeef;
+  --color-dark-gray: #c2c2c2;
+  --surface-color: #fff;
+  --color-error: #fa8e8e;
+
+
+  /* 3. Shadows */
+  --medium-shadow: 4px 4px 8px rgba(223, 222, 234, 0.7);
+  --small-shadow-black: 2px 2px 2px rgba(188, 188, 200, 0.82);
+  --button-shadow: 0px 0px 16px var(--color-tertiary);
+  --section-shadow: 0 -10px 10px -10px var(--color-tertiary) inset ,var(--small-shadow-black);
+
+  /* 4. Gradients */
+  --underline-header: linear-gradient(90deg, #ffbf00 0%, #fff 100%);
+}
+
+
+@media screen and (max-width: 800px) {
+  :root {
+    --navbar-height: 60px;
+  }
+}
+

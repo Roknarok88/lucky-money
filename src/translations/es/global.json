@@ -1,0 +1,139 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "contact-us": "Contáctenos",
+    "home-cleaning": "Limpieza del hogar",
+    "moving-cleaning": "Limpieza de mudanza",
+    "garden-refreshment": "Cuidado del jardín"
+  },
+  "home": {
+    "description": "Después de muchos años de exitosa operación y relaciones con los clientes en nuestra Suecia natal, en Costa Facility Groups hemos decidido utilizar esta valiosa experiencia para expandirnos a lo largo de la Costa del Sol, especializándonos en la región de Marbella.",
+    "service-card":{
+      "home-cleaning": {
+        "title": "Limpieza del hogar",
+        "description": "¿Necesita ayuda con la limpieza de casa?"
+      },
+      "moving-cleaning": {
+        "title": "Limpieza de mudanza",
+        "description": "Concéntrese en su nuevo hogar mientras nosotros nos encargamos de la limpieza de mudanzas en su residencia anterior"
+      },
+      "garden-refreshment": {
+        "title": "Cuidado del jardín",
+        "description": "Un jardín bien cuidado contribuye a un mayor bienestar y crea una buena impresión en visitantes y transeúntes."
+      }
+    },
+    "description_2": "Contáctenos para una consulta sin compromiso; Estaremos encantados de reunirnos con usted y discutir sus necesidades específicas para sus propiedades, privadas y/o comerciales, jardines y piscinas."
+  },
+  "services": {
+    "home-cleaning": {
+      "title": "Limpieza del hogar",
+      "description": "La limpieza de la casa debería darle tiempo para los lujos cotidianos. ¡Te ayudamos con la limpieza de tu hogar para que pueda concentrarse en la familia, pasatiempos, trabajo y en uno mismo/a!",
+      "title-secondary": "Limpieza del hogar según sus deseos",
+      "description-secondary": "¿Necesita ayuda con la limpieza de casa? Proporcionamos limpieza regular del hogar para que pueda concentrarse en otras prioridades. Siempre ofrecemos un presupuesto gratuito para personalizar la limpieza del hogar según sus necesidades y deseos específicos. Para nosotros es fundamental que nuestros clientes queden 100% satisfechos, por eso realizamos la limpieza íntegramente según sus preferencias. Independientemente de sus necesidades, estamos aquí para ayudar cuando necesite asistencia de limpieza. Ofrecemos soluciones flexibles basadas en sus necesidades, ya sea limpieza una vez por semana o una vez al mes. Reserve la limpieza ahora desde sólo",
+      "section-1": {
+        "title": "¿Qué incluye la limpieza del hogar?",
+        "description": "En Costa Facility Group estamos para simplificar tu día a día, por eso te dejamos decidir cómo debe realizarse tu limpieza con nuestros expertos. Hemos elaborado una lista estándar de lo que incluye la limpieza del hogar, pero, por supuesto, la adaptamos a tus necesidades y deseos específicos.",
+        "list": {
+          "title": "Se incluye lo siguiente:",
+          "content": "<ul><li>Limpiar encimeras, superficies de trabajo y grifos.</li><li>Limpiar los azulejos/mármol sobre el fregadero y estufa.</li><li>Limpiar los electrodomésticos por fuera.</li><li>Eliminación de manchas de puertas de gabinetes en el exterior.</li><li>Limpiar zócalos.</li><li>Vaciar y limpiar dentro y alrededor de los contenedores de basura.</li><li>Limpieza del horno, limpieza de bandejas y rejillas del horno y limpieza entre los cristales del horno (se requiere desmontaje por parte del cliente). Se debe especificar el tipo de estufa tiene al realizar la reserva.</li><li>Limpieza del microondas por dentro y por fuera.</li><li>Limpiar el exterior de los gabinetes de la estufa de cocina y la parte inferior (no el interior).</li><li>Limpieza del piso.</li></ul>",
+          "sub": "¡Puedes encontrar la lista de verificación completa para la limpieza del hogar <a rel='next' href='/services/home-cleaning#list'>aquí</a>!"
+        }
+      },
+      "section-2": {
+        "title": "Limpieza del hogar/limpieza semanal",
+        "description": "Siempre recomendamos dedicar un poco de tiempo extra a la primera sesión para conseguir un resultado realmente bonito y más fácil de mantener después. Para proyectos de limpieza de menos de 100 metros cuadrados, recomendamos 30 minutos adicionales, y para proyectos de limpieza de más de 100 metros cuadrados, recomendamos 60 minutos adicionales.",
+        "list-1": {
+          "title": "Lista de verificación: limpieza del hogar",
+          "list-title": "Cocina",
+          "content": "<ul><li>Limpiar encimeras, superficies de trabajo y grifos.</li><li>Limpiar los azulejos/mármol sobre el fregadero y la estufa.</li><li>Limpiar los electrodomésticos por fuera.</li><li>Eliminación de manchas de puertas de gabinetes en el exterior.</li><li>Limpiar zócalos.</li><li>Vaciar y limpiar dentro y alrededor de los contenedores de basura.</li><li>Limpieza del horno, limpieza de bandejas y rejillas del horno y limpieza entre los cristales del horno (se requiere desmontaje por parte del cliente). Se debe especificar el tipo de estufa al realizar la reserva.</li><li>Limpieza del microondas por dentro y por fuera.</li><li>Limpiar el exterior de los gabinetes de la estufa y la parte inferior (no el interior).</li><li>Limpieza del piso.</li></ul>"
+        },
+        "list-2": {
+          "list-title": "Baño / Aseo",
+          "content": "<ul><li>Limpieza de la taza del inodoro por dentro y por fuera.</li><li>Limpieza de la parte superior e inferior del lavabo.</li><li>Limpieza de muebles de baño.</li><li>Limpieza del interior y exterior de desagües de piso.</li><li>Limpieza de la bañera y/o cabina de ducha.</li><li>Limpieza de azulejos/cerámica/mármol (excluyendo moho).</li><li>Limpieza del lavabo.</li><li>Limpiar el exterior de secadorasy lavadoras.</li><li>Limpiar el suelo.</li></ul>"
+        },
+        "list-3": {
+          "list-title": "Otras habitaciones",
+          "content": "<ul><li>Vaciar los cubos de basura en todas las habitaciones.</li><li>Pulido de espejos.</li><li>Quitar el polvo de los cuadros.</li><li>Limpiar pasamanos y barandillas de escaleras.</li><li>Barrer/aspirar y fregar en húmedo.</li><li>Quitar el polvo alrededor y encima de las rejillas de ventilación (hasta 2,5 metros).</li><li>Limpiar los paneles de las paredes.</li><li>Limpiar puertas y tiradores.</li><li>Limpiar las superficies horizontales de mesas, sillas, armarios y estanterías (hasta 1,8 metros).</li><li>Quitar el polvo de adornos, estantes y cuadros.</li><li>Limpiar zócalos, alféizares de ventanas y radiadores.</li><li>Limpiar los enchufes e interruptores eléctricos con un paño seco.</li><li>Limpiar el interior de la puerta de entrada.</li><li>Fregar el piso en húmedo.</li><li>Aspirar los zócalos.</li><li>Aspirar muebles tapizados.</li><li>¡Tenga en cuenta que no movemos muebles!</li></ul>"
+        },
+        "title-secondary": "Personaliza la limpieza de tu hogar",
+        "description-secondary": "Lo adaptamos a tus deseos. Dado que somos tan flexibles y tenemos una amplia experiencia en la industria, podemos ayudarle con todo, desde clasificar su ropa, planchar camisas, conducir hasta la tintorería más cercana, limpiar ventanas, hacer recados a la farmacia hasta barrer el camino de entrada. Usted sugiere: ¡nosotros actuamos!"
+      }
+    },
+    "moving-cleaning": {
+      "title": "Limpieza de mudanza.",
+      "description": "La limpieza de mudanza debería dejarte completamente satisfecho, al igual que la persona que se muda. Sabemos lo que se requiere y también ofrecemos una garantía de satisfacción del cliente. Siempre ofrecemos una garantía de cliente satisfecho para la limpieza de mudanzas, ya sea de su nuevo hogar u oficina. Esto es para permitirle a usted, como nuevo propietario o inquilino, proporcionar comentarios si algo no cumple con sus requisitos. Nuestra garantía al cliente es válida durante siete días a partir de la fecha de limpieza. Hacemos esto para asegurarnos de que usted se sienta seguro de nuestra cooperación desde el principio y porque nuestro objetivo es la satisfacción del cliente al 100%.",
+      "title-secondary": "Limpieza de mudanzas que hace feliz a su sucesor.",
+      "description-secondary": "Somos una de las mejores empresas de limpieza con más de 20 años de experiencia en limpieza y asistencia en mudanzas. Sabemos lo que se necesita para que su propiedad esté lo más limpia y fresca posible. Concéntrese en su nuevo hogar mientras nosotros nos encargamos de la limpieza de mudanzas en su residencia anterior. Con nosotros obtendrás limpieza de mudanzas al precio justo en todos nuestros servicios. Reserva las mejores empresas de mudanzas de España con Costa Facility Group.",
+      "section-1": {
+        "title": "¿Qué incluye la limpieza del hogar?",
+        "description": "En Costa Facility Group estamos para simplificar tu día a día, por eso te dejamos decidir cómo debe realizarse tu limpieza con nuestros expertos. Hemos elaborado una lista estándar de lo que incluye la limpieza del hogar, pero, por supuesto, la adaptamos a tus necesidades y deseos específicos.",
+        "list": {
+          "title": "Se incluye lo siguiente:",
+          "content": "<ul><li>Limpiar la estufa de cocina, el horno por encima y por debajo, los lados y las paredes.</li><li>Limpieza de bandejas y parrillas del horno.</li><li>Limpiar el fregadero, el mueble del fregadero y los grifos.</li><li>Limpieza de la campana de la estufa, filtro y campana por fuera y por debajo (no por dentro).</li><li>Quitar el polvo de las paredes y limpiar los azulejos.</li><li>Limpiar entre los cristales del horno (se requiere desmontaje por parte del cliente). Se debe especificar el tipo de estufa de cocina al realizar la reserva.</li><li>Limpieza del frigorífico/congelador (debe descongelarse previamente).</li><li>Limpiar gabinetes y puertas de gabinetes por dentro y por fuera.</li><li>Limpieza de puertas y tiradores.</li><li>Limpieza de cristales por dentro, por fuera y entre cristales.</li><li>Limpieza dentro y alrededor de los contenedores de basura.</li><li>Limpiar zócalos.</li><li>Aspirar y fregar el piso en húmedo.</li><li>Limpieza del microondas empotrado por dentro y por fuera.</li></ul>",
+          "sub": "¡Puedes encontrar la lista de verificación completa para la limpieza del hogar <a rel='next' href='/services/moving-cleaning#list'>aquí</a>!"
+        }
+      },
+      "section-2": {
+        "list-1": {
+          "title": "Lista de verificación: limpieza en mudanzas",
+          "list-title": "Cocina",
+          "content": "<ul><li>Limpiar las tapas de las estufas, la estufa y el horno por encima y por debajo, los lados y las paredes.</li><li>Limpieza de bandejas y parrillas del horno.</li><li>Limpiar el fregadero, el mueble del fregadero y los grifos.</li><li>Limpieza de la campana de la estufa, filtro y campana por fuera y por debajo (no por dentro).</li><li>Quitar el polvo de las paredes y limpiar los azulejos.</li><li>Limpiar entre los cristales del horno (se requiere desmontaje por parte del cliente). Se debe especificar el tipo de estufa al realizar la reserva.</li><li>Limpieza del frigorífico/congelador (debe descongelarse previamente).</li><li>Limpiar gabinetes y puertas de gabinetes por dentro y por fuera.</li><li>Limpieza de puertas y tiradores.</li><li>Limpieza de cristales por dentro, por fuera y entre cristales.</li><li>Limpieza dentro y alrededor de los cubos de basura.</li><li>Limpiar zócalos.</li><li>Aspirar y fregar el piso en húmedo.</li><li>Limpieza del microondas empotrado por dentro y por fuera.</li></ul>"
+        },
+        "list-2": {
+          "list-title": "Baño / Aseo",
+          "content": "<ul><li>Limpieza de la taza del inodoro por dentro y por fuera.</li><li>Limpieza de la parte superior e inferior del lavabo.</li><li>Limpieza de muebles de baño.</li><li>Limpieza del interior y exterior de desagües de piso.</li><li>Limpieza de la bañera y/o cabina de ducha.</li><li>Limpieza de azulejos/cerámica/mármol (excluyendo moho).</li><li>Limpieza del lavabo.</li><li>Limpiar el exterior de secadoras y lavadoras.</li><li>Limpiar el exterior de las tuberías.</li><li>Aspirar y fregar el piso en húmedo.</li></ul>"
+        },
+        "list-3": {
+          "list-title": "Otras habitaciones",
+          "content": "<ul><li>Limpieza de cristales por dentro, por fuera y entre cristales.</li><li>Limpieza de radiadores.</li><li>Quitar el polvo de las paredes.</li><li>Limpieza de armarios y armarios empotrados por dentro y por fuera.</li><li>Limpiar el interior de la puerta de entrada.</li><li>Limpiar todos los enchufes e interruptores eléctricos con un paño seco.</li><li>Limpieza de puertas y tiradores.</li><li>Limpiar zócalos.</li><li>Aspirar y fregar el piso en húmedo.</li></ul>"
+        },
+        "list-4": {
+          "list-title": "Adicional:",
+          "content": "<ul><li>Balcón.</li><li>Grifos exteriores</li><li>Limpieza interior de lavavajillas, lavadora y/o secadora.</li></ul>"
+        }
+      }
+    },
+    "garden-refreshment": {
+      "title": "Cuidado del jardín",
+      "description": "Un jardín bien cuidado contribuye a un mayor bienestar y crea una buena impresión en visitantes y transeúntes. Un hermoso jardín también puede aumentar el valor de su hogar. Sin embargo, la jardinería puede llevar bastante tiempo y ser un poco difícil de gestionar.",
+      "description-secondary": "Cortar el césped, podar setos, rastrillar, eliminar malas hierbas, son algunos ejemplos de lo que hacemos por su jardín. Podemos prestar servicios de jardinería de forma continua u ocasional. Tú decides y nada es vinculante. Nuestro personal está bien informado y tiene una amplia experiencia."
+    }
+  },
+  "contact-us": {
+    "title": "Contáctenos",
+    "label": {
+      "name": "Nombre",
+      "email": "E-mail",
+      "phone": "Teléfono",
+      "subject": "¿Como podemos ayudarte?"
+    },
+    "errors": {
+      "name": "Se requiere su nombre",
+      "email": "Se requiere su E-mail",
+      "phone": "Se requiere su teléfono",
+      "subject": "Se requiere sujeto",
+      "invalid": {
+        "email": "Inválido E-mail",
+        "phone": "Inválido teléfono"
+      }
+    },
+    "email-success": "Su mensaje ha sido enviado",
+    "email-error": "Se ha producido un error, inténtelo de nuevo más tarde.",
+    "submit": "Enviar"
+  },
+  "footer": {
+    "social": {
+      "title": "Social"
+    },
+    "contact-us": {
+      "title": "Contáctenos",
+      "telephone": "Teléfono",
+      "email": "E-mail",
+      "address": "Dirección"
+    },
+    "certificates": {
+      "title": "Certificates"
+    }
+  }
+}

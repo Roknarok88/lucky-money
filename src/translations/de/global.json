@@ -1,0 +1,139 @@
+{
+  "navbar": {
+    "home": "Hemsida",
+    "services": "Tjänster",
+    "contact-us": "Kontakta oss",
+    "home-cleaning": "Hemstädning",
+    "moving-cleaning": "Flyttstädning",
+    "garden-refreshment": "Trädgårdsuppfräschning"
+  },
+  "home": {
+    "description": "Efter många år av framgångsrik drift och kundrelationer i vårt hemland Sverige, använder Costa Facility Groups nu denna värdefulla erfarenhet för att expandera längs den spanska kusten, med specialisering på Marbella-regionen.",
+    "service-card":{
+      "home-cleaning": {
+        "title": "Hemstädning",
+        "description": "Behöver du hjälp med städning hemma?"
+      },
+      "moving-cleaning": {
+        "title": "Flyttstädning",
+        "description": "Fokusera på den nya bostaden medan vi tar hand om att flyttstäda i din tidigare bostad."
+      },
+      "garden-refreshment": {
+        "title": "Trädgårdsuppfräschning",
+        "description": "En välskött trädgård bidrar till ökad trivsel och ger ett bra intryck hos besökare och de förbipasserande."
+      }
+    },
+    "description_2": "Kontakta oss för en förpliktande konsultation; vi kommer gärna att träffa dig och diskutera dina specifika behov för dina privata och/eller kommersiella fastigheter, trädgårdar och pooler."
+  },
+  "services": {
+    "home-cleaning": {
+      "title": "Hemstädning",
+      "description": "En hemstädning ska ge dig tid för vardagslyx. Vi hjälper dig med din hemstädning så att du kan fokusera på din familj, fritidsintressen, arbete och på dig själv!",
+      "title-secondary": "Hemstädning efter dina önskemål",
+      "description-secondary": "Behöver du hjälp med städning hemma? Vi utför regelbunden hemstädning så att du kan fokusera på andra prioriteringar. Vi erbjuder alltid en kostnadsfri offert för att kunna anpassa hemstädningen efter dina specifika behov och önskemål. \nFör oss är det viktigt att våra kunder är 100% nöjda, vi utför därför städning helt enligt dina önskemål. Oavsett behov finns vi där för dig när du behöver städhjälp. Vi erbjuder flexibla lösningar utifrån dina krav, oavsett om det är städning en gång i veckan eller en gång i månaden.",
+      "section-1": {
+        "title": "Vad ingår i hemstädning?",
+        "description": "Vi på Costa Facility Group finns här för dig som vill förenkla vardagen, därför låter vi dig bestämma hur din städning ska utföras tillsammans med våra experter. Vi har tagit fram en standardlista för vad som ingår i en hemstädning, men självklart anpassar vi den efter just dina behov och önskemål.",
+        "list": {
+          "title": "Följande ingår:",
+          "content": "<ul><li>Avtorkning av diskbänk, arbetsbänk och kranar.</li><li>Avtorkning av kakel/marmor ovanför diskbänk och spis.</li><li>Avtorkning av vitvaror utvändigt.</li><li>Avfläckningar av skåpluckor utvändigt</li><li>Avtorkning golvsocklar</li><li>Tömning och avtorkning i och runt sopbehållare</li><li>Ugnsrengöring, avtorkning av ungplåtar och galler samt avtorkning mellan ugnsglas (demontering av kund). Typ av spishäll måste specificeras vid bokning.</li><li>Rengöring av mikrovågsugn in – och utvändigt.</li><li>Avtorkning av spiskåpautsida och undersida (ej inuti).</li><li>Avtorkning av golv</li></ul>",
+          "sub": "Du hittar hela checklistan för hemstädning <a rel='next' href='/services/home-cleaning#list'>här</a>!"
+        }
+      },
+      "section-2": {
+        "title": "Hemstädning/Veckostädning",
+        "description": "Vi rekommenderar alltid att lägga lite extra tid vid första tillfället för att direkt uppnå ett riktigt fint resultat som det sedan är lättare att bibehålla. För städobjekt mindre än 100kvm rekommenderar vi 30 minuter och för städobjekt större än 100kvm rekommenderar vi 60 minuter extra.",
+        "list-1": {
+          "title": "Checklista: Hemstädning",
+          "list-title": "Kök",
+          "content": "<ul><li>Avtorkning av diskbänk, arbetsbänk och kranar</li><li>Avtorkning av kakel/marmor ovanför diskbänk och spis</li><li>Avtorkning av vitvaror utvändigt</li><li>Avfläckningar av skåpluckor utvändigt</li><li>Avtorkning av golvsocklar</li><li>Tömning och avtorkning i och runt sopbehållare</li><li>Ugnsrengöring, avtorkning av ugnsplåtar och galler samt avtorkning mellan ugnsglas (demontering av kund). Typ av spishäll måste specificeras vid bokning.</li><li>Rengöring av mikrovågsugn in- och utvändigt</li><li>Avtorkning av spiskåpautsida och undersida (ej inuti)</li><li>Avtorkning golv</li></ul>"
+        },
+        "list-2": {
+          "list-title": "Badrum / Toalett",
+          "content": "<ul><li>Rengöring av toalettstol in- och utsida</li><li>Rengöring av ovan och undersida av tvättställ</li><li>Rengöring av badrumsskåp</li><li>Rengöring av golvbrunn invändigt och utvändigt</li><li>Rengöring av badkar och/eller duschkabin</li><li>Rengöring av kakel/klinker/marmor (ej mögel)</li><li>Rengöring av handfat</li><li>Avtorkning utvändigt av torkskåp, torktumlare & tvättmaskin</li><li>Avtorkning av golv</li></ul>"
+        },
+        "list-3": {
+          "list-title": "Övriga rum",
+          "content": "<ul><li>Tömning av papperskorgar i alla rum</li><li>Putsning av speglar</li><li>Damma tavlor</li><li>Avtorkning av ledstänger och trappräcken</li><li>Sopning/dammsugning och våttorkning</li><li>Damma av runt och ovanpå ventiler (högst 2,5m)</li><li>Avtorkning av väggpanel</li><li>Avtorkning av dörrar och handtag</li><li>Avtorkning av fris horisontella ytor på bord, stolar, skåp och hyllor (högst 1,8m)</li><li>Damma av dekoration, hyllor och tavlor</li><li>Avtorkning av golvlister, fönsterbänkar och element</li><li>Avtorkning med torr trasa av eluttag och strömbrytare</li><li>Avtorkning av insida av entrédörr</li><li>Våttorkning golv</li><li>Dammsugning av golvlister</li><li>Dammsugning av klädda/stoppade möbler</li><li>Notera att vi inte flyttar på möbler!</li></ul>"
+        },
+        "title-secondary": "Skräddarsy din hemstädning",
+        "description-secondary": "Vi skräddarsyr efter dina önskemål. Då vi är så pass flexibla och har lång erfarenhet inom branschen kan vi hjälpa dig med allt ifrån att plocka ur din tvätt, stryka skjortor, köra till närmaste kemtvätt, fönsterputsning, utföra apoteksärrenden, till att sopa/skotta fram uppfarten. Ni föreslår – Vi utför!"
+      }
+    },
+    "moving-cleaning": {
+      "title": "Flyttstädning",
+      "description": "En flyttstädning ska göra dig fullkomligt nöjd, men också den som flyttar in. Vi vet vad som krävs och lämnar dessutom nöjd kundgaranti. Vi ger alltid nöjd kundgaranti på flyttstädningen oavsett om det är ditt nya hem eller kontor. Detta för att du som ny ägare eller hyresgäst ska kunna komma med synpunkter om något inte stämmer med ditt önskemål. Vår kundgaranti gäller i sju dagar från städtillfället. Det här gör vi för att du ska känna dig säker med vårt samarbete redan från start och för att vi strävar efter vårt mål som är 100% kundnöjdhet.",
+      "title-secondary": "Flyttstädning som gör din efterträdare lycklig",
+      "description-secondary": "Vi är en av de bästa städfirmorna med över 20 års erfarenhet inom städ- och flytt hjälp. Vi vet vad som behövs för att din bostad ska bli så ren och fräsch som möjligt. Fokusera på den nya bostaden medan vi tar hand om att flyttstäda i din tidigare bostad. Med oss får du en flyttstädning till rätt pris på alla våra tjänster. Boka Spaniens bästa flyttstädare med Costa Faciltiy Group.",
+      "section-1": {
+        "title": "Vad ingår i flyttstädning?",
+        "description": "Vi följer Mäklarsamfundets riktlinjer när vi ska flyttstäda åt våra kunder. Nedan listar vi några av punkterna från checklistan.",
+        "list": {
+          "title": "Följande ingår:",
+          "content": "<ul><li>Rengöring av diskbänk, diskbänksskåp och kranar.</li><li>Rengöring av kyl/frys (ska avfrostas i förväg)</li><li>Rengöring och tömning av golvbrunn</li><li>Rengöring av handfat</li><li>Avtorkning av skåp och inbyggda garderober in- och utvändigt</li><li>Dammsugning och våttorkning av golv</li></ul>",
+          "sub": "Du hittar hela checklistan för flyttstädning <a rel='next' href='/services/moving-cleaning#list'>här</a>!"
+        }
+      },
+      "section-2": {
+        "list-1": {
+          "title": "Checklista – Flyttstädning",
+          "list-title": "Kök",
+          "content": "<ul><li>Rengöring av kokplattor, spis och ugn ovan- och undersida, sidor och vägg</li><li>Rengöring av ugnsplåtar och galler</li><li>Rengöring av diskbänk, diskbänksskåp och kranar</li><li>Rengöring av spisfläkt, filter och kåpa - utsida och undersida (ej inuti)</li><li>Damma av väggar samt rengöring av kakel</li><li>Avtorkning mellan ugnsglas (demontering av kund). Typ av spishäll specificeras vid bokning</li><li>Rengöring av kyl/frus (ska avfrostas i förväg)</li><li>Avtorkning av skåp och skåpluckor in- och utvändigt</li><li>Rengöring av dörrar och handtag</li><li>Fönsterputs in- och utsida samt mellan glasen</li><li>Rengöring i och runt sopbehållare</li><li>Avtorkning av golvsocklar</li><li>Dammsugning och våttorkning av golv</li><li>Rengöring av inbyggd mikro in- och utvändigt</li></ul>"
+        },
+        "list-2": {
+          "list-title": "Badrum / Toalett",
+          "content": "<ul><li>Rengöring av toalettstol in- och utsida</li><li>Rengöring av ovan och undersida av tvättställ</li><li>Rengöring av badrumsskåp</li><li>Rengöring av golvbrunn invändigt och utvändigt</li><li>Rengöring av badkar och/eller duschkabin</li><li>Rengöring av kakel/klinker/marmor (ej mögel)</li><li>Rengöring av handfat</li><li>Avtorkning utvändigt av torkskåp, torktumlare & tvättmaskin</li><li>Avtorkning av rör</li><li>Dammsugning och våttorkning av golv</li></ul>"
+        },
+        "list-3": {
+          "list-title": "Övriga rum",
+          "content": "<ul><li>Fönsterputs in- och utsida samt mellan glasen</li><li>Rengöring av element</li><li>Damma av väggar</li><li>Avtorkning av skåp och inbyggda garderober in- och utvändigt</li><li>Avtorkning av insida entrédörr</li><li>Avtorkning med torr trasa av alla eluttag och strömbrytare</li><li>Rengöring av dörrar och handtag</li><li>Avtorkning av golvsocklar</li><li>Dammsugning och våttorkning av golv</li></ul>"
+        },
+        "list-4": {
+          "list-title": "Tillägg:",
+          "content": "<ul><li>Balkong</li><li>Vattenlås (under kranarna)</li><li>Invändig rengöring av diskmaskin, tvättmaskin och/eller torktumlare</li></ul>"
+        }
+      }
+    },
+    "garden-refreshment": {
+      "title": "Trädgårdsuppfräschning",
+      "description": "En välskött trädgård bidrar till ökad trivsel och ger ett bra intryck hos besökare och de förbipasserande. En vacker trädgård kan också höja husets värde. Men trädgårdsarbete kan vara rätt tidskrävande och lite svårt att hinna med.",
+      "description-secondary": "Gräsklippning, häckklippning, krattning, ogräsrensning, är några exempel av det vi utför för din trädgård. Vi kan utföra trädgårdstjänster kontinuerligt, eller vid enstaka tillfällen. Du väljer själv, och ingenting är bindande. Personalen är kunnig och besitter lång erfarenhet."
+    }
+  },
+  "contact-us": {
+    "title": "Kontakta oss",
+    "label": {
+      "name": "Namn",
+      "email": "E-postadress",
+      "phone": "Telefon",
+      "subject": "Hur kan vi hjälpa dig?"
+    },
+    "errors": {
+      "name": "Namn krävs",
+      "email": "E-postadress krävs",
+      "phone": "Telefon krävs",
+      "subject": "Ämne krävs",
+      "invalid": {
+        "email": "Ogiltig e-postadress",
+        "phone": "Ogiltig telefon"
+      }
+    },
+    "email-success": "Ditt meddelande har skickats",
+    "email-error": "Ett fel har inträffat. Var snäll försök senare",
+    "submit": "Skicka"
+  },
+  "footer": {
+    "social": {
+      "title": "Social"
+    },
+    "contact-us": {
+      "title": "Kontakta oss",
+      "telephone": "Telefon",
+      "email": "E-postadress",
+      "address": "Adress"
+    },
+    "certificates": {
+      "title": "Certificates"
+    }
+  }
+}

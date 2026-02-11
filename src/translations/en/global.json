@@ -1,0 +1,272 @@
+{
+  "navbar": {
+    "current-competition": "Live Competition",
+    "past-competition": "Past Competitions",
+    "how-to-play": "How to Play"
+  },
+  "home": {
+    "title": "Take part in our raffle competitions!",
+    "description": "Win exceptional prizes, including luxury cars and high-end watches. Participation is simple and transparent: buy your tickets, enter the draw, and increase your chances with every ticket you purchase. Each competition offers a limited number of tickets per participant, ensuring a fair and exciting experience for everyone.",
+    "how-to-play": {
+      "title": "How to play",
+      "1": {
+        "subtitle": "Select the Competition:",
+        "description": "Enter the competition you want to participate and win."
+      },
+      "2": {
+        "subtitle": "Choose how many tickets:",
+        "description": "Decide how many tickets to buy in order to enter (each ticket has a maximum number per user)."
+      },
+      "3": {
+        "subtitle": "Increase Your Chances:",
+        "description": "More tickets = higher odds in the final draw."
+      },
+      "4": {
+        "subtitle": "Submit Your Entry:",
+        "description": "Confirm your selection and secure your spot in the draw."
+      }
+    }
+  },
+  "current-competition": {
+    "title": "Join the Competition",
+    "competition": {
+      "title": "Win a BMW M3 Competition!",
+      "competition-ends": "The Competition Ends in:",
+      "competition-ends-2": "Once all entries are sold, the competition will close — so don’t miss out!"
+    },
+    "countdown": {
+      "seconds": "Seconds",
+      "minutes": "Minutes",
+      "hours": "Hours",
+      "days": "Days"
+    },
+    "ticket-entry": {
+      "total-entries": "Total entries",
+      "tickets-sold": "Tickets sold",
+      "max-tickets": "per person"
+    },
+    "price": "Price",
+    "email-info": "You need to validate your e-mail to enter the draw"
+  },
+  "how-to-play": {
+    "title": "How To Play",
+    "step": "Step",
+    "section-1": {
+      "title": "Select the Competition",
+      "1": "Check the current competitions that are available",
+      "2": "Choose the competition you want to participate in."
+    },
+    "section-2": {
+      "title": "Buy Your Tickets",
+      "1": "Each item has a maximum ticket limit per player.",
+      "2": "Enter the number of tickets you wish to purchase."
+    },
+    "section-3": {
+      "title": "Complete Your Entry",
+      "1": "Confirm your ticket selection with your e-mail to check the eligibility",
+      "2": "Purchase and submit your entry to be officially included in the draw. You will receive an e-mail with the purchase"
+    },
+    "section-4": {
+      "title": "Understand Your Chances",
+      "1": "Every ticket increases your chance in the final draw.",
+      "2": "Purchasing more tickets improves your odds."
+    },
+    "tip": "Tip!",
+    "pro-tip-1": "Popular competitions can sell out quickly. Secure your tickets early to avoid missing your chance to participate!",
+    "pro-tip-2": "Check competitions regularly so you don’t miss newly added prizes and opportunities to participate!"
+  },
+  "past-competition": {
+    "title": "There are no past competitions"
+  },
+  "email-form": {
+    "email-placeholder": "Enter your e-mail",
+    "submit": "Buy Your Tickets!",
+    "error": {
+      "email-invalid": "Invalid E-mail Address",
+      "email-required": "E-mail Address Required"
+    }
+  },
+  "footer": {
+    "terms": "Terms & Conditions"
+  },
+  "terms": {
+    "meta": {
+      "title": "Terms and Conditions",
+      "effectiveDate": "Effective Date: {{date}}"
+    },
+    "introduction": "By accessing, registering, or participating in any competition, raffle, or ticket-based promotion operated by Lucky Money, you agree to be legally bound by these Terms and Conditions.",
+    "sections": {
+      "eligibility": {
+        "title": "1. Eligibility",
+        "points": [
+          "Participants must be at least 18 years old or the legal age of majority in their jurisdiction.",
+          "Participants must reside in a jurisdiction where such competitions are legally permitted.",
+          "All registration information must be accurate and truthful.",
+          "Lucky Money reserves the right to verify identity before awarding any prize.",
+          "Failure to meet eligibility requirements may result in disqualification without refund."
+        ]
+      },
+      "participation": {
+        "title": "2. Participation & Ticket Limits",
+        "points": [
+          "Each competition specifies maximum tickets per participant, total ticket allocation, and entry closing date.",
+          "Ticket limits apply per individual person, not per account.",
+          "Purchasing more tickets increases probability of selection but does not guarantee winning.",
+          "All ticket purchases are final unless a competition is canceled."
+        ]
+      },
+      "antiFraud": {
+        "title": "3. Anti-Fraud & Fair Use Policy",
+        "intro": "The following actions are strictly prohibited:",
+        "prohibited": [
+          "Creating multiple accounts to bypass ticket limits.",
+          "Using different email addresses, identities, payment methods, devices, or IP addresses to exceed per-person limits.",
+          "Using bots, scripts, automation tools, or software manipulation.",
+          "Payment fraud, chargebacks, or unauthorized transactions.",
+          "Identity misrepresentation.",
+          "Collusion or coordinated manipulation."
+        ],
+        "consequencesTitle": "If fraudulent activity is detected, Lucky Money reserves the right to:",
+        "consequences": [
+          "Immediately disqualify the participant.",
+          "Void all associated tickets with or without refund.",
+          "Forfeit winnings.",
+          "Permanently suspend accounts.",
+          "Report activity to authorities where applicable."
+        ],
+        "closing": "All fraud-related decisions are final."
+      },
+      "drawProcess": {
+        "title": "4. Draw Process & Winner Selection",
+        "points": [
+          "Winners are selected through a transparent and random draw process.",
+          "Draws occur once ticket sales close or maximum allocation is reached.",
+          "Winners will be notified using registered contact information.",
+          "If a winner fails to respond within {{responseDays}} days, a redraw may occur.",
+          "Identity verification may be required before prize release."
+        ]
+      },
+      "prizes": {
+        "title": "5. Prizes",
+        "points": [
+          "Prizes are described accurately to the best of our ability.",
+          "Images are for illustrative purposes only.",
+          "Lucky Money reserves the right to substitute a prize with one of equal or greater value.",
+          "Prizes are non-transferable and non-exchangeable unless otherwise stated.",
+          "Winners are responsible for applicable taxes, registration fees, or legal compliance requirements."
+        ]
+      },
+      "responsibleParticipation": {
+        "title": "6. Responsible Participation",
+        "points": [
+          "Participants must not purchase tickets beyond their financial means.",
+          "Participation does not guarantee winning.",
+          "Users are solely responsible for their spending decisions.",
+          "Lucky Money may impose spending limits or suspend accounts to protect users."
+        ]
+      },
+      "payments": {
+        "title": "7. Payments, AML & Chargebacks",
+        "points": [
+          "All payments must be made through approved payment processors.",
+          "Lucky Money reserves the right to conduct anti-money laundering and fraud screening.",
+          "Unjustified chargebacks may result in permanent suspension.",
+          "Suspicious financial activity may be reported to regulatory authorities."
+        ]
+      },
+      "accountTermination": {
+        "title": "8. Account Suspension & Termination",
+        "points": [
+          "Accounts may be suspended or terminated for breach of these Terms.",
+          "Fraudulent behavior or regulatory compliance concerns may result in termination.",
+          "Termination decisions are made at Lucky Money's sole discretion."
+        ]
+      },
+      "intellectualProperty": {
+        "title": "9. Intellectual Property",
+        "points": [
+          "All website content, branding, logos, graphics, and competition materials are the exclusive property of Lucky Money.",
+          "Content may not be copied, reproduced, or distributed without written consent."
+        ]
+      },
+      "publicity": {
+        "title": "10. Publicity Rights",
+        "points": [
+          "By accepting a prize, winners agree that Lucky Money may publish their first name and location.",
+          "Photographs or videos may be used for promotional purposes unless prohibited by law."
+        ]
+      },
+      "privacy": {
+        "title": "11. Privacy Policy",
+        "subsections": {
+          "dataCollected": {
+            "title": "11.1 Information Collected",
+            "points": [
+              "Name",
+              "Email address",
+              "Date of birth",
+              "Payment details"
+            ]
+          },
+          "dataUsage": {
+            "title": "11.2 How We Use Data",
+            "points": [
+              "To process ticket purchases.",
+              "To conduct identity verification.",
+              "To prevent fraud.",
+              "To communicate competition updates.",
+              "To improve platform security."
+            ]
+          },
+          "dataSharing": {
+            "title": "11.3 Data Sharing",
+            "points": [
+              "We do not sell personal data.",
+              "Data may be shared with payment processors and fraud prevention services.",
+              "Information may be shared with authorities when legally required."
+            ]
+          },
+          "dataSecurity": {
+            "title": "11.4 Data Security",
+            "points": [
+              "We implement reasonable technical and organizational measures to protect personal data."
+            ]
+          },
+          "userRights": {
+            "title": "11.5 User Rights",
+            "points": [
+              "Right to access personal data.",
+              "Right to correct inaccurate data.",
+              "Right to request deletion where legally permitted.",
+              "Right to restrict or object to processing."
+            ]
+          }
+        }
+      },
+      "liability": {
+        "title": "12. Limitation of Liability",
+        "points": [
+          "Lucky Money is not responsible for technical failures or service interruptions.",
+          "We are not liable for indirect or consequential damages.",
+          "Participation is at the user's own risk."
+        ]
+      },
+      "modifications": {
+        "title": "13. Modifications",
+        "points": [
+          "Lucky Money reserves the right to modify competitions or these Terms at any time.",
+          "Continued participation after updates constitutes acceptance of the revised Terms."
+        ]
+      },
+      "governingLaw": {
+        "title": "14. Governing Law & Dispute Resolution",
+        "content": "These Terms are governed by the laws of Spain. Disputes shall be resolved exclusively in the courts of that jurisdiction."
+      }
+    },
+    "contact": {
+      "title": "15. Contact Information",
+      "email": "Contact Email: {{email}}",
+      "website": "Website: {{website}}"
+    }
+  }
+}

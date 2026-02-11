@@ -1,33 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import {Route, Routes, useLocation} from "react-router-dom";
+import { useLayoutEffect } from "react";
+import './main.scss'
+
+import NavBar from "./components/NavBar/NavBar.jsx"
+import Home from "./pages/Home/Home.jsx"
+import Footer from "./components/Footer/Footer.jsx";
+import HowToPlay from "./pages/HowToPlay/HowToPlay.jsx";
+import CurrentCompetition from "./pages/CurrentCompetition/CurrentCompetition.jsx";
+import PastCompetition from "./pages/PastCompetition/PastCompetition.jsx";
+import TermsConditions from "./pages/TermsConditions/TermsConditions.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
+
+
+  const Wrapper = ({children}) => {
+    const location = useLocation();
+    useLayoutEffect(() => {
+      document.documentElement.scrollTo({top: 0, behavior: "instant"});
+    }, [location.pathname]);
+    return children
+  }
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <NavBar/>
+      <div className="main-content">
+        <Wrapper>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/how-to-play" element={<HowToPlay />}/>
+            <Route path="/current-competition" element={<CurrentCompetition />}/>
+            <Route path="/past-competition" element={<PastCompetition />}/>
+            <Route path="/terms-and-conditions" element={<TermsConditions />}/>
+          </Routes>
+        </Wrapper>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Footer/>
     </>
   )
 }
