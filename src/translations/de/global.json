@@ -1,139 +1,323 @@
 {
   "navbar": {
-    "home": "Hemsida",
-    "services": "Tjänster",
-    "contact-us": "Kontakta oss",
-    "home-cleaning": "Hemstädning",
-    "moving-cleaning": "Flyttstädning",
-    "garden-refreshment": "Trädgårdsuppfräschning"
+    "current-competition": "Live Competitions",
+    "past-competition": "Past Competitions",
+    "how-to-play": "How to Play"
   },
   "home": {
-    "description": "Efter många år av framgångsrik drift och kundrelationer i vårt hemland Sverige, använder Costa Facility Groups nu denna värdefulla erfarenhet för att expandera längs den spanska kusten, med specialisering på Marbella-regionen.",
-    "service-card":{
-      "home-cleaning": {
-        "title": "Hemstädning",
-        "description": "Behöver du hjälp med städning hemma?"
+    "title": "Lucky Money<br>Take part in our raffle competitions!",
+    "description": "Win exceptional prizes, including luxury cars and high-end watches. Participation is simple and transparent: buy your tickets, enter the draw, and increase your chances with every ticket you purchase. Each competition offers a limited number of tickets per participant, ensuring a fair and exciting experience for everyone.",
+    "how-to-play": {
+      "title": "How to play",
+      "1": {
+        "subtitle": "Select the Competition:",
+        "description": "Enter the competition you want to participate and win."
       },
-      "moving-cleaning": {
-        "title": "Flyttstädning",
-        "description": "Fokusera på den nya bostaden medan vi tar hand om att flyttstäda i din tidigare bostad."
+      "2": {
+        "subtitle": "Choose how many tickets:",
+        "description": "Decide how many tickets to buy in order to enter (each ticket has a maximum number per user)."
       },
-      "garden-refreshment": {
-        "title": "Trädgårdsuppfräschning",
-        "description": "En välskött trädgård bidrar till ökad trivsel och ger ett bra intryck hos besökare och de förbipasserande."
+      "3": {
+        "subtitle": "Increase Your Chances:",
+        "description": "More tickets = higher odds in the final draw."
+      },
+      "4": {
+        "subtitle": "Submit Your Entry:",
+        "description": "Confirm your selection and secure your spot in the draw."
       }
-    },
-    "description_2": "Kontakta oss för en förpliktande konsultation; vi kommer gärna att träffa dig och diskutera dina specifika behov för dina privata och/eller kommersiella fastigheter, trädgårdar och pooler."
-  },
-  "services": {
-    "home-cleaning": {
-      "title": "Hemstädning",
-      "description": "En hemstädning ska ge dig tid för vardagslyx. Vi hjälper dig med din hemstädning så att du kan fokusera på din familj, fritidsintressen, arbete och på dig själv!",
-      "title-secondary": "Hemstädning efter dina önskemål",
-      "description-secondary": "Behöver du hjälp med städning hemma? Vi utför regelbunden hemstädning så att du kan fokusera på andra prioriteringar. Vi erbjuder alltid en kostnadsfri offert för att kunna anpassa hemstädningen efter dina specifika behov och önskemål. \nFör oss är det viktigt att våra kunder är 100% nöjda, vi utför därför städning helt enligt dina önskemål. Oavsett behov finns vi där för dig när du behöver städhjälp. Vi erbjuder flexibla lösningar utifrån dina krav, oavsett om det är städning en gång i veckan eller en gång i månaden.",
-      "section-1": {
-        "title": "Vad ingår i hemstädning?",
-        "description": "Vi på Costa Facility Group finns här för dig som vill förenkla vardagen, därför låter vi dig bestämma hur din städning ska utföras tillsammans med våra experter. Vi har tagit fram en standardlista för vad som ingår i en hemstädning, men självklart anpassar vi den efter just dina behov och önskemål.",
-        "list": {
-          "title": "Följande ingår:",
-          "content": "<ul><li>Avtorkning av diskbänk, arbetsbänk och kranar.</li><li>Avtorkning av kakel/marmor ovanför diskbänk och spis.</li><li>Avtorkning av vitvaror utvändigt.</li><li>Avfläckningar av skåpluckor utvändigt</li><li>Avtorkning golvsocklar</li><li>Tömning och avtorkning i och runt sopbehållare</li><li>Ugnsrengöring, avtorkning av ungplåtar och galler samt avtorkning mellan ugnsglas (demontering av kund). Typ av spishäll måste specificeras vid bokning.</li><li>Rengöring av mikrovågsugn in – och utvändigt.</li><li>Avtorkning av spiskåpautsida och undersida (ej inuti).</li><li>Avtorkning av golv</li></ul>",
-          "sub": "Du hittar hela checklistan för hemstädning <a rel='next' href='/services/home-cleaning#list'>här</a>!"
-        }
-      },
-      "section-2": {
-        "title": "Hemstädning/Veckostädning",
-        "description": "Vi rekommenderar alltid att lägga lite extra tid vid första tillfället för att direkt uppnå ett riktigt fint resultat som det sedan är lättare att bibehålla. För städobjekt mindre än 100kvm rekommenderar vi 30 minuter och för städobjekt större än 100kvm rekommenderar vi 60 minuter extra.",
-        "list-1": {
-          "title": "Checklista: Hemstädning",
-          "list-title": "Kök",
-          "content": "<ul><li>Avtorkning av diskbänk, arbetsbänk och kranar</li><li>Avtorkning av kakel/marmor ovanför diskbänk och spis</li><li>Avtorkning av vitvaror utvändigt</li><li>Avfläckningar av skåpluckor utvändigt</li><li>Avtorkning av golvsocklar</li><li>Tömning och avtorkning i och runt sopbehållare</li><li>Ugnsrengöring, avtorkning av ugnsplåtar och galler samt avtorkning mellan ugnsglas (demontering av kund). Typ av spishäll måste specificeras vid bokning.</li><li>Rengöring av mikrovågsugn in- och utvändigt</li><li>Avtorkning av spiskåpautsida och undersida (ej inuti)</li><li>Avtorkning golv</li></ul>"
-        },
-        "list-2": {
-          "list-title": "Badrum / Toalett",
-          "content": "<ul><li>Rengöring av toalettstol in- och utsida</li><li>Rengöring av ovan och undersida av tvättställ</li><li>Rengöring av badrumsskåp</li><li>Rengöring av golvbrunn invändigt och utvändigt</li><li>Rengöring av badkar och/eller duschkabin</li><li>Rengöring av kakel/klinker/marmor (ej mögel)</li><li>Rengöring av handfat</li><li>Avtorkning utvändigt av torkskåp, torktumlare & tvättmaskin</li><li>Avtorkning av golv</li></ul>"
-        },
-        "list-3": {
-          "list-title": "Övriga rum",
-          "content": "<ul><li>Tömning av papperskorgar i alla rum</li><li>Putsning av speglar</li><li>Damma tavlor</li><li>Avtorkning av ledstänger och trappräcken</li><li>Sopning/dammsugning och våttorkning</li><li>Damma av runt och ovanpå ventiler (högst 2,5m)</li><li>Avtorkning av väggpanel</li><li>Avtorkning av dörrar och handtag</li><li>Avtorkning av fris horisontella ytor på bord, stolar, skåp och hyllor (högst 1,8m)</li><li>Damma av dekoration, hyllor och tavlor</li><li>Avtorkning av golvlister, fönsterbänkar och element</li><li>Avtorkning med torr trasa av eluttag och strömbrytare</li><li>Avtorkning av insida av entrédörr</li><li>Våttorkning golv</li><li>Dammsugning av golvlister</li><li>Dammsugning av klädda/stoppade möbler</li><li>Notera att vi inte flyttar på möbler!</li></ul>"
-        },
-        "title-secondary": "Skräddarsy din hemstädning",
-        "description-secondary": "Vi skräddarsyr efter dina önskemål. Då vi är så pass flexibla och har lång erfarenhet inom branschen kan vi hjälpa dig med allt ifrån att plocka ur din tvätt, stryka skjortor, köra till närmaste kemtvätt, fönsterputsning, utföra apoteksärrenden, till att sopa/skotta fram uppfarten. Ni föreslår – Vi utför!"
-      }
-    },
-    "moving-cleaning": {
-      "title": "Flyttstädning",
-      "description": "En flyttstädning ska göra dig fullkomligt nöjd, men också den som flyttar in. Vi vet vad som krävs och lämnar dessutom nöjd kundgaranti. Vi ger alltid nöjd kundgaranti på flyttstädningen oavsett om det är ditt nya hem eller kontor. Detta för att du som ny ägare eller hyresgäst ska kunna komma med synpunkter om något inte stämmer med ditt önskemål. Vår kundgaranti gäller i sju dagar från städtillfället. Det här gör vi för att du ska känna dig säker med vårt samarbete redan från start och för att vi strävar efter vårt mål som är 100% kundnöjdhet.",
-      "title-secondary": "Flyttstädning som gör din efterträdare lycklig",
-      "description-secondary": "Vi är en av de bästa städfirmorna med över 20 års erfarenhet inom städ- och flytt hjälp. Vi vet vad som behövs för att din bostad ska bli så ren och fräsch som möjligt. Fokusera på den nya bostaden medan vi tar hand om att flyttstäda i din tidigare bostad. Med oss får du en flyttstädning till rätt pris på alla våra tjänster. Boka Spaniens bästa flyttstädare med Costa Faciltiy Group.",
-      "section-1": {
-        "title": "Vad ingår i flyttstädning?",
-        "description": "Vi följer Mäklarsamfundets riktlinjer när vi ska flyttstäda åt våra kunder. Nedan listar vi några av punkterna från checklistan.",
-        "list": {
-          "title": "Följande ingår:",
-          "content": "<ul><li>Rengöring av diskbänk, diskbänksskåp och kranar.</li><li>Rengöring av kyl/frys (ska avfrostas i förväg)</li><li>Rengöring och tömning av golvbrunn</li><li>Rengöring av handfat</li><li>Avtorkning av skåp och inbyggda garderober in- och utvändigt</li><li>Dammsugning och våttorkning av golv</li></ul>",
-          "sub": "Du hittar hela checklistan för flyttstädning <a rel='next' href='/services/moving-cleaning#list'>här</a>!"
-        }
-      },
-      "section-2": {
-        "list-1": {
-          "title": "Checklista – Flyttstädning",
-          "list-title": "Kök",
-          "content": "<ul><li>Rengöring av kokplattor, spis och ugn ovan- och undersida, sidor och vägg</li><li>Rengöring av ugnsplåtar och galler</li><li>Rengöring av diskbänk, diskbänksskåp och kranar</li><li>Rengöring av spisfläkt, filter och kåpa - utsida och undersida (ej inuti)</li><li>Damma av väggar samt rengöring av kakel</li><li>Avtorkning mellan ugnsglas (demontering av kund). Typ av spishäll specificeras vid bokning</li><li>Rengöring av kyl/frus (ska avfrostas i förväg)</li><li>Avtorkning av skåp och skåpluckor in- och utvändigt</li><li>Rengöring av dörrar och handtag</li><li>Fönsterputs in- och utsida samt mellan glasen</li><li>Rengöring i och runt sopbehållare</li><li>Avtorkning av golvsocklar</li><li>Dammsugning och våttorkning av golv</li><li>Rengöring av inbyggd mikro in- och utvändigt</li></ul>"
-        },
-        "list-2": {
-          "list-title": "Badrum / Toalett",
-          "content": "<ul><li>Rengöring av toalettstol in- och utsida</li><li>Rengöring av ovan och undersida av tvättställ</li><li>Rengöring av badrumsskåp</li><li>Rengöring av golvbrunn invändigt och utvändigt</li><li>Rengöring av badkar och/eller duschkabin</li><li>Rengöring av kakel/klinker/marmor (ej mögel)</li><li>Rengöring av handfat</li><li>Avtorkning utvändigt av torkskåp, torktumlare & tvättmaskin</li><li>Avtorkning av rör</li><li>Dammsugning och våttorkning av golv</li></ul>"
-        },
-        "list-3": {
-          "list-title": "Övriga rum",
-          "content": "<ul><li>Fönsterputs in- och utsida samt mellan glasen</li><li>Rengöring av element</li><li>Damma av väggar</li><li>Avtorkning av skåp och inbyggda garderober in- och utvändigt</li><li>Avtorkning av insida entrédörr</li><li>Avtorkning med torr trasa av alla eluttag och strömbrytare</li><li>Rengöring av dörrar och handtag</li><li>Avtorkning av golvsocklar</li><li>Dammsugning och våttorkning av golv</li></ul>"
-        },
-        "list-4": {
-          "list-title": "Tillägg:",
-          "content": "<ul><li>Balkong</li><li>Vattenlås (under kranarna)</li><li>Invändig rengöring av diskmaskin, tvättmaskin och/eller torktumlare</li></ul>"
-        }
-      }
-    },
-    "garden-refreshment": {
-      "title": "Trädgårdsuppfräschning",
-      "description": "En välskött trädgård bidrar till ökad trivsel och ger ett bra intryck hos besökare och de förbipasserande. En vacker trädgård kan också höja husets värde. Men trädgårdsarbete kan vara rätt tidskrävande och lite svårt att hinna med.",
-      "description-secondary": "Gräsklippning, häckklippning, krattning, ogräsrensning, är några exempel av det vi utför för din trädgård. Vi kan utföra trädgårdstjänster kontinuerligt, eller vid enstaka tillfällen. Du väljer själv, och ingenting är bindande. Personalen är kunnig och besitter lång erfarenhet."
     }
   },
-  "contact-us": {
-    "title": "Kontakta oss",
-    "label": {
-      "name": "Namn",
-      "email": "E-postadress",
-      "phone": "Telefon",
-      "subject": "Hur kan vi hjälpa dig?"
+  "live-competitions": {
+    "title": "Live Competitions",
+    "no-competition": {
+      "title": "Upcoming Competitions Coming Soon!",
+      "description": "There are no live competitions available at this time. Stay connected through our social media channels for exclusive updates and announcements about future prize draws."
+    }
+  },
+  "current-competition": {
+    "title": "Join the Competition",
+    "no-competition": {
+      "title": "Something went wrong!",
+      "description": "Try again later or refresh the page"
     },
-    "errors": {
-      "name": "Namn krävs",
-      "email": "E-postadress krävs",
-      "phone": "Telefon krävs",
-      "subject": "Ämne krävs",
-      "invalid": {
-        "email": "Ogiltig e-postadress",
-        "phone": "Ogiltig telefon"
+    "competition": {
+      "title": "Win a {{name}}!",
+      "competition-ends": "The Competition Ends in:",
+      "competition-ends-2": "Once all entries are sold, the competition will close — so don’t miss out!",
+      "competition-ended": "Competition has ended! Stay connected through our social media channels for exclusive updates and announcements about future prize draws."
+    },
+    "countdown": {
+      "seconds": "Seconds",
+      "minutes": "Minutes",
+      "hours": "Hours",
+      "days": "Days"
+    },
+    "ticket-entry": {
+      "total-entries": "Total entries",
+      "tickets-sold": "Tickets sold",
+      "max-tickets": "per person"
+    },
+    "price": "Price",
+    "email-info": "You need to validate your e-mail to enter the draw"
+  },
+  "how-to-play": {
+    "title": "How To Play",
+    "step": "Step",
+    "section-1": {
+      "title": "Select the Competition",
+      "1": "Check the current competitions that are available.",
+      "2": "Choose the competition you want to participate in."
+    },
+    "section-2": {
+      "title": "Buy Your Tickets",
+      "1": "Each item has a maximum ticket limit per player.",
+      "2": "Enter the number of tickets you wish to purchase."
+    },
+    "section-3": {
+      "title": "Complete Your Entry",
+      "1": "Confirm your ticket selection with your e-mail to check the eligibility.",
+      "2": "Purchase and submit your entry to be officially included in the draw. You will receive an e-mail with the purchase."
+    },
+    "section-4": {
+      "title": "Understand Your Chances",
+      "1": "Every ticket increases your chance in the final draw.",
+      "2": "Purchasing more tickets improves your odds."
+    },
+    "tip": "Tip!",
+    "pro-tip-1": "Popular competitions can sell out quickly. Secure your tickets early to avoid missing your chance to participate!",
+    "pro-tip-2": "Check competitions regularly so you don’t miss newly added prizes and opportunities to participate!"
+  },
+  "past-competition": {
+    "title": "There are no past competitions"
+  },
+  "email-form": {
+    "email-placeholder": "Enter your e-mail",
+    "confirm-mail-placeholder": "Confirm your e-mail",
+    "name-placeholder": "Full Name",
+    "phone-placeholder": "Phone Number",
+    "submit": "Validate Your Email!",
+    "validating": "Validating",
+    "submit_buy": "Buy Tickets",
+    "validating_buy": "Buying",
+    "error": {
+      "email-invalid": "Invalid E-mail Address",
+      "email-required": "E-mail Address Required",
+      "name-invalid": "E-mail Address Required",
+      "name-required": "E-mail Address Required",
+      "email-match": "E-mails must match",
+      "email-confirm": "Please confirm your E-mail",
+      "number-valid": "Ivl!",
+      "number-value": "Min 1.",
+      "number-required": "Req.",
+      "number-max": "Max: {{userCanBuy}}",
+      "phone-valid": "Phone number too short",
+      "phone-required": "Telephone is required",
+      "competition_not_found": "Competition not found.",
+      "competition_ended": "This competition has ended.",
+      "competition_sold_out": "Not enough tickets available ({{remaining}} remaining).",
+      "user_limit_reached": "You can only buy {{remaining}} more ticket(s).",
+      "something-went-wrong": "Something went wrong",
+      "network-problem": "Network error. Please try again."
+
+    },
+    "api_response": {
+      "success": "You have {{tickets}} ticket(s). You can buy up to {{userCanBuy}} more.",
+      "errors": {
+        "ticket_limit": "You have {{tickets}} ticket(s) — you've reached the limit of {{maxTickets}}.",
+        "failed": "Failed to check availability.",
+        "availability": "No tickets available for this competition."
       }
-    },
-    "email-success": "Ditt meddelande har skickats",
-    "email-error": "Ett fel har inträffat. Var snäll försök senare",
-    "submit": "Skicka"
+    }
   },
   "footer": {
-    "social": {
-      "title": "Social"
+    "terms": "Terms & Conditions"
+  },
+  "terms": {
+    "meta": {
+      "title": "Terms and Conditions",
+      "effectiveDate": "Effective Date: {{date}}"
     },
-    "contact-us": {
-      "title": "Kontakta oss",
-      "telephone": "Telefon",
-      "email": "E-postadress",
-      "address": "Adress"
+    "introduction": "By accessing, registering, or participating in any competition, raffle, or ticket-based promotion operated by Lucky Money, you agree to be legally bound by these Terms and Conditions.",
+    "sections": {
+      "eligibility": {
+        "title": "1. Eligibility",
+        "points": [
+          "Participants must be at least 18 years old or the legal age of majority in their jurisdiction.",
+          "Participants must reside in a jurisdiction where such competitions are legally permitted.",
+          "All registration information must be accurate and truthful.",
+          "Lucky Money reserves the right to verify identity before awarding any prize.",
+          "Failure to meet eligibility requirements may result in disqualification without refund."
+        ]
+      },
+      "participation": {
+        "title": "2. Participation & Ticket Limits",
+        "points": [
+          "Each competition specifies maximum tickets per participant, total ticket allocation, and entry closing date.",
+          "Ticket limits apply per individual person, not per account.",
+          "Purchasing more tickets increases probability of selection but does not guarantee winning.",
+          "All ticket purchases are final unless a competition is canceled."
+        ]
+      },
+      "antiFraud": {
+        "title": "3. Anti-Fraud & Fair Use Policy",
+        "intro": "The following actions are strictly prohibited:",
+        "prohibited": [
+          "Creating multiple accounts to bypass ticket limits.",
+          "Using different email addresses, identities, payment methods, devices, or IP addresses to exceed per-person limits.",
+          "Using bots, scripts, automation tools, or software manipulation.",
+          "Payment fraud, chargebacks, or unauthorized transactions.",
+          "Identity misrepresentation.",
+          "Collusion or coordinated manipulation."
+        ],
+        "consequencesTitle": "If fraudulent activity is detected, Lucky Money reserves the right to:",
+        "consequences": [
+          "Immediately disqualify the participant.",
+          "Void all associated tickets with or without refund.",
+          "Forfeit winnings.",
+          "Permanently suspend accounts.",
+          "Report activity to authorities where applicable."
+        ],
+        "closing": "All fraud-related decisions are final."
+      },
+      "drawProcess": {
+        "title": "4. Draw Process & Winner Selection",
+        "points": [
+          "Winners are selected through a transparent and random draw process.",
+          "Draws occur once ticket sales close or maximum allocation is reached.",
+          "Winners will be notified using registered contact information.",
+          "If a winner fails to respond within 15 days, a redraw may occur.",
+          "Identity verification may be required before prize release."
+        ]
+      },
+      "prizes": {
+        "title": "5. Prizes",
+        "points": [
+          "Prizes are described accurately to the best of our ability.",
+          "Images are for illustrative purposes only.",
+          "Lucky Money reserves the right to substitute a prize with one of equal or greater value.",
+          "Prizes are non-transferable and non-exchangeable unless otherwise stated.",
+          "Winners are responsible for applicable taxes, registration fees, or legal compliance requirements."
+        ]
+      },
+      "responsibleParticipation": {
+        "title": "6. Responsible Participation",
+        "points": [
+          "Participants must not purchase tickets beyond their financial means.",
+          "Participation does not guarantee winning.",
+          "Users are solely responsible for their spending decisions.",
+          "Lucky Money may impose spending limits or suspend accounts to protect users."
+        ]
+      },
+      "payments": {
+        "title": "7. Payments, AML & Chargebacks",
+        "points": [
+          "All payments must be made through approved payment processors.",
+          "Lucky Money reserves the right to conduct anti-money laundering and fraud screening.",
+          "Unjustified chargebacks may result in permanent suspension.",
+          "Suspicious financial activity may be reported to regulatory authorities."
+        ]
+      },
+      "accountTermination": {
+        "title": "8. Account Suspension & Termination",
+        "points": [
+          "Accounts may be suspended or terminated for breach of these Terms.",
+          "Fraudulent behavior or regulatory compliance concerns may result in termination.",
+          "Termination decisions are made at Lucky Money's sole discretion."
+        ]
+      },
+      "intellectualProperty": {
+        "title": "9. Intellectual Property",
+        "points": [
+          "All website content, branding, logos, graphics, and competition materials are the exclusive property of Lucky Money.",
+          "Content may not be copied, reproduced, or distributed without written consent."
+        ]
+      },
+      "publicity": {
+        "title": "10. Publicity Rights",
+        "points": [
+          "By accepting a prize, winners agree that Lucky Money may publish their first name and location.",
+          "Photographs or videos may be used for promotional purposes unless prohibited by law."
+        ]
+      },
+      "privacy": {
+        "title": "11. Privacy Policy",
+        "subsections": {
+          "dataCollected": {
+            "title": "11.1 Information Collected",
+            "points": [
+              "Name",
+              "Email address",
+              "Date of birth",
+              "Payment details"
+            ]
+          },
+          "dataUsage": {
+            "title": "11.2 How We Use Data",
+            "points": [
+              "To process ticket purchases.",
+              "To conduct identity verification.",
+              "To prevent fraud.",
+              "To communicate competition updates.",
+              "To improve platform security."
+            ]
+          },
+          "dataSharing": {
+            "title": "11.3 Data Sharing",
+            "points": [
+              "We do not sell personal data.",
+              "Data may be shared with payment processors and fraud prevention services.",
+              "Information may be shared with authorities when legally required."
+            ]
+          },
+          "dataSecurity": {
+            "title": "11.4 Data Security",
+            "points": [
+              "We implement reasonable technical and organizational measures to protect personal data."
+            ]
+          },
+          "userRights": {
+            "title": "11.5 User Rights",
+            "points": [
+              "Right to access personal data.",
+              "Right to correct inaccurate data.",
+              "Right to request deletion where legally permitted.",
+              "Right to restrict or object to processing."
+            ]
+          }
+        }
+      },
+      "liability": {
+        "title": "12. Limitation of Liability",
+        "points": [
+          "Lucky Money is not responsible for technical failures or service interruptions.",
+          "We are not liable for indirect or consequential damages.",
+          "Participation is at the user's own risk."
+        ]
+      },
+      "modifications": {
+        "title": "13. Modifications",
+        "points": [
+          "Lucky Money reserves the right to modify competitions or these Terms at any time.",
+          "Continued participation after updates constitutes acceptance of the revised Terms."
+        ]
+      },
+      "governingLaw": {
+        "title": "14. Governing Law & Dispute Resolution",
+        "content": "These Terms are governed by the laws of Spain. Disputes shall be resolved exclusively in the courts of that jurisdiction."
+      }
     },
-    "certificates": {
-      "title": "Certificates"
+    "contact": {
+      "title": "15. Contact Information",
+      "email": "Contact Email: {{email}}",
+      "website": "Website: {{website}}"
     }
+  },
+  "payment-success": {
+    "title": "Congratulations!",
+    "description": "Thank you for your purchase — your transaction has been completed successfully.<br/><br/>You have bought <b>{{tickets}} ticket(s)</b> for the competition.<br/><br/>We’ve sent a confirmation email with your ticket details to <b>{{email}}</b>.<br/><br/>If you don’t see the email in your inbox within a few minutes, please check your spam or junk folder.<br/><br/>Good luck — we wish you the best! \uD83C\uDF40"
+  },
+  "payment-cancel": {
+    "title": "Payment Cancelled",
+    "description": "Hi, just letting you know that the payment has been cancelled successfully.<br/><br/>No charges have been processed. If you need to make the payment again or have any questions, please feel free to reach out."
   }
 }

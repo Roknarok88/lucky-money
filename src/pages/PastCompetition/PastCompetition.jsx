@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from "./PastCompetition.module.scss"
 import {useTranslation} from "react-i18next";
 
 const PastCompetition = () => {

@@ -43,7 +43,7 @@ const NavBar = () => {
           </NavLink>
           <div className={`${styles['navbar-content']} ${open && styles['open']}`}>
             <div ref={linkContainer} className={styles['links-container']}>
-              <NavLink to="/current-competition">
+              <NavLink to="/live-competitions">
                 {t("current-competition")}
               </NavLink>
               {/*<NavLink to="/past-competition">*/}

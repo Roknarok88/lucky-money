@@ -9,6 +9,9 @@ import HowToPlay from "./pages/HowToPlay/HowToPlay.jsx";
 import CurrentCompetition from "./pages/CurrentCompetition/CurrentCompetition.jsx";
 import PastCompetition from "./pages/PastCompetition/PastCompetition.jsx";
 import TermsConditions from "./pages/TermsConditions/TermsConditions.jsx";
+import LiveCompetitions from "./pages/LiveCompetitions/LiveCompetitions.jsx";
+import PaymentSuccess from "./pages/PaymentSuccess/PaymentSuccess.jsx";
+import PaymentCancel from "./pages/PaymentCancel/PaymentCancel.jsx";
 
 function App() {
 
@@ -29,9 +32,12 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/how-to-play" element={<HowToPlay />}/>
-            <Route path="/current-competition" element={<CurrentCompetition />}/>
+            <Route path="/live-competitions" element={<LiveCompetitions />}/>
             <Route path="/past-competition" element={<PastCompetition />}/>
             <Route path="/terms-and-conditions" element={<TermsConditions />}/>
+            <Route path="/live-competitions/:id" element={<CurrentCompetition />} />
+            <Route path="/payment-success" element={<PaymentSuccess />} />
+            <Route path="/payment-cancel" element={<PaymentCancel />} />
           </Routes>
         </Wrapper>
       </div>

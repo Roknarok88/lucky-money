@@ -15,7 +15,7 @@ const HowToPlay = () => {
               <div className={styles.card} key={index}>
                 <h3><b className={styles['index-card']}>{t('step')} {index + 1}:</b> {t(`section-${index + 1}.title`)}
                 </h3>
-                <p>{t(`section-${index + 1}.1`)} <br/>{t(`section-${index + 1}.2`)}</p>
+                <p>{t(`section-${index + 1}.1`)}<br className="br-htp"/> {t(`section-${index + 1}.2`)}</p>
               </div>
             ))}
           </div>

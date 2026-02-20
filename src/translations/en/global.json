@@ -1,11 +1,11 @@
 {
   "navbar": {
-    "current-competition": "Live Competition",
+    "current-competition": "Live Competitions",
     "past-competition": "Past Competitions",
     "how-to-play": "How to Play"
   },
   "home": {
-    "title": "Take part in our raffle competitions!",
+    "title": "Lucky Money<br>Take part in our raffle competitions!",
     "description": "Win exceptional prizes, including luxury cars and high-end watches. Participation is simple and transparent: buy your tickets, enter the draw, and increase your chances with every ticket you purchase. Each competition offers a limited number of tickets per participant, ensuring a fair and exciting experience for everyone.",
     "how-to-play": {
       "title": "How to play",
@@ -27,12 +27,24 @@
       }
     }
   },
+  "live-competitions": {
+    "title": "Live Competitions",
+    "no-competition": {
+      "title": "Upcoming Competitions Coming Soon!",
+      "description": "There are no live competitions available at this time. Stay connected through our social media channels for exclusive updates and announcements about future prize draws."
+    }
+  },
   "current-competition": {
     "title": "Join the Competition",
+    "no-competition": {
+      "title": "Something went wrong!",
+      "description": "Try again later or refresh the page"
+    },
     "competition": {
-      "title": "Win a BMW M3 Competition!",
+      "title": "Win a {{name}}!",
       "competition-ends": "The Competition Ends in:",
-      "competition-ends-2": "Once all entries are sold, the competition will close — so don’t miss out!"
+      "competition-ends-2": "Once all entries are sold, the competition will close — so don’t miss out!",
+      "competition-ended": "Competition has ended! Stay connected through our social media channels for exclusive updates and announcements about future prize draws."
     },
     "countdown": {
       "seconds": "Seconds",
@@ -53,7 +65,7 @@
     "step": "Step",
     "section-1": {
       "title": "Select the Competition",
-      "1": "Check the current competitions that are available",
+      "1": "Check the current competitions that are available.",
       "2": "Choose the competition you want to participate in."
     },
     "section-2": {
@@ -63,8 +75,8 @@
     },
     "section-3": {
       "title": "Complete Your Entry",
-      "1": "Confirm your ticket selection with your e-mail to check the eligibility",
-      "2": "Purchase and submit your entry to be officially included in the draw. You will receive an e-mail with the purchase"
+      "1": "Confirm your ticket selection with your e-mail to check the eligibility.",
+      "2": "Purchase and submit your entry to be officially included in the draw. You will receive an e-mail with the purchase."
     },
     "section-4": {
       "title": "Understand Your Chances",
@@ -80,10 +92,41 @@
   },
   "email-form": {
     "email-placeholder": "Enter your e-mail",
-    "submit": "Buy Your Tickets!",
+    "confirm-mail-placeholder": "Confirm your e-mail",
+    "name-placeholder": "Full Name",
+    "phone-placeholder": "Phone Number",
+    "submit": "Validate Your Email!",
+    "validating": "Validating",
+    "submit_buy": "Buy Tickets",
+    "validating_buy": "Buying",
     "error": {
       "email-invalid": "Invalid E-mail Address",
-      "email-required": "E-mail Address Required"
+      "email-required": "E-mail Address Required",
+      "name-invalid": "E-mail Address Required",
+      "name-required": "E-mail Address Required",
+      "email-match": "E-mails must match",
+      "email-confirm": "Please confirm your E-mail",
+      "number-valid": "Ivl!",
+      "number-value": "Min 1.",
+      "number-required": "Req.",
+      "number-max": "Max: {{userCanBuy}}",
+      "phone-valid": "Phone number too short",
+      "phone-required": "Telephone is required",
+      "competition_not_found": "Competition not found.",
+      "competition_ended": "This competition has ended.",
+      "competition_sold_out": "Not enough tickets available ({{remaining}} remaining).",
+      "user_limit_reached": "You can only buy {{remaining}} more ticket(s).",
+      "something-went-wrong": "Something went wrong",
+      "network-problem": "Network error. Please try again."
+
+    },
+    "api_response": {
+      "success": "You have {{tickets}} ticket(s). You can buy up to {{userCanBuy}} more.",
+      "errors": {
+        "ticket_limit": "You have {{tickets}} ticket(s) — you've reached the limit of {{maxTickets}}.",
+        "failed": "Failed to check availability.",
+        "availability": "No tickets available for this competition."
+      }
     }
   },
   "footer": {
@@ -142,7 +185,7 @@
           "Winners are selected through a transparent and random draw process.",
           "Draws occur once ticket sales close or maximum allocation is reached.",
           "Winners will be notified using registered contact information.",
-          "If a winner fails to respond within {{responseDays}} days, a redraw may occur.",
+          "If a winner fails to respond within 15 days, a redraw may occur.",
           "Identity verification may be required before prize release."
         ]
       },
@@ -268,5 +311,13 @@
       "email": "Contact Email: {{email}}",
       "website": "Website: {{website}}"
     }
+  },
+  "payment-success": {
+    "title": "Congratulations!",
+    "description": "Thank you for your purchase — your transaction has been completed successfully.<br/><br/>You have bought <b>{{tickets}} ticket(s)</b> for the competition.<br/><br/>We’ve sent a confirmation email with your ticket details to <b>{{email}}</b>.<br/><br/>If you don’t see the email in your inbox within a few minutes, please check your spam or junk folder.<br/><br/>Good luck — we wish you the best! \uD83C\uDF40"
+  },
+  "payment-cancel": {
+    "title": "Payment Cancelled",
+    "description": "Hi, just letting you know that the payment has been cancelled successfully.<br/><br/>No charges have been processed. If you need to make the payment again or have any questions, please feel free to reach out."
   }
 }

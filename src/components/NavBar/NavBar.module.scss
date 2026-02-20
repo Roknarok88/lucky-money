@@ -119,18 +119,43 @@
 }
 
 @media screen and (max-width: 800px) {
+  .icon-container {
+    img {
+      height: 60px;
+      top: -28px;
+    }
+  }
+
   .navbar-content {
     display: flex;
     position: absolute;
     width: 100%;
     height: calc(100vh - var(--navbar-height));
     z-index: 100;
-    background-color: white;
     flex-direction: column;
     left: -100%;
     top: var(--navbar-height);
     transition: 0.3s left ease-in;
     box-shadow: 0 10px 10px -10px var(--color-tertiary) inset;
+
+    background-color: var(--color-primary);
+    background-image: url("/logo.png");
+    background-blend-mode: color-burn;
+
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: inherit;
+      background-size: 200px;
+      background-position: top;
+
+      filter: grayscale(100%) brightness(0.3);
+      opacity: 0.3;
+
+      z-index: 0;
+    }
 
     &.open {
       left: 0;
@@ -160,31 +185,6 @@
     position: absolute;
     top: 12px;
     right: 8px;
-  }
-
-  .link-dropdown {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start !important;
-
-    .dropdown-container {
-      opacity: 1;
-      visibility: visible;
-      position: static;
-      background-color: transparent;
-      box-shadow: none;
-      transition: none;
-
-      a {
-        width: max-content;
-        color: var(--color-blue);
-        border: none;
-
-        &:last-child {
-          padding-bottom: 0;
-        }
-      }
-    }
   }
 
   .nav-hamburger {
@@ -219,7 +219,7 @@
     position: absolute;
     height: 1px;
     width: 50%;
-    background: var(--color-dark-blue);
+    background: var(--color-tertiary);
     opacity: 1;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);

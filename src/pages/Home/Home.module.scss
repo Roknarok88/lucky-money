@@ -19,6 +19,7 @@
     font-family: "Bungee", sans-serif !Important;
     font-weight: 400;
     font-style: normal;
+    line-height: 1.5;
   }
 
   p {
@@ -110,6 +111,24 @@
   margin-right: 4px;
 }
 
+@media screen and (max-width: 500px) {
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+    padding: 0;
+    list-style-type: none;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    min-height: 200px;
+    margin: 60px 0;
+  }
+
+}
+
+
 
 @media screen and (max-width: 500px) {
   .section {
@@ -120,7 +139,7 @@
 
   .header {
     h1 {
-      font-size: 32px;
+      font-size: 24px;
 
       &::after {
         height: 8px;
@@ -130,6 +149,26 @@
 
     p {
       font-size: 18px;
+      text-align: justify;
     }
+  }
+
+  .header2 {
+    font-size: 24px;
+  }
+
+  .cards {
+
+    h3 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.3;
+    }
+  }
+
+  .index-card {
+    font-size: 16px;
   }
 }

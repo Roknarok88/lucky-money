@@ -133,9 +133,15 @@ main {
 
 .header-image {
   object-fit: cover;
+  object-position: top;
   width: 100%;
-  max-height: 600px;
+  max-height: 680px;
   z-index: 1;
+}
+
+.mobile-header-image {
+  z-index: 1;
+  display:none;
 }
 
 .description-text {
@@ -266,4 +272,46 @@ section {
   }
 }
 
+@media screen and (min-width: 2000px) {
+
+  .header-image {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    max-height: 1000px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header-image {
+    display: none;
+  }
+
+  .mobile-header-image {
+    display: block;
+  }
+
+  .br-htp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-content {
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: inherit;
+      background-size: 400px;
+      background-position: center;
+
+      filter: grayscale(100%) brightness(0.3);
+      opacity: 0.2;
+
+      z-index: 0;
+    }
+  }
+}
 

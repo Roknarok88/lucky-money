@@ -1,38 +1,72 @@
 import React, {useEffect, useState} from 'react';
+import { useParams } from "react-router-dom";
+import {useTranslation, Trans} from "react-i18next";
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {FreeMode, Navigation, Thumbs} from 'swiper/modules';
 import EmailForm from "./components/EmailForm/EmailForm.jsx";
 import Countdown from 'react-countdown';
-import {useTranslation} from "react-i18next";
+
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
+
 import styles from "./CurrentCompetition.module.scss";
-import photo1 from "../../assets/images/competition/photo1.jpg";
-import photo2 from "../../assets/images/competition/photo2.jpg";
-import photo3 from "../../assets/images/competition/photo3.jpg";
-import photo4 from "../../assets/images/competition/photo4.jpg";
 import personIcon from "../../assets/images/icons/person.svg";
 import ticketIcon from "../../assets/images/icons/ticket.svg";
+
+import { competitionImages} from "../../utils/competitionImages.js";
 
 const CurrentCompetition = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [t, i18n] = useTranslation('global', {keyPrefix: "current-competition"})
   const [competitionEnded, setCompetitionEnded] = useState(false);
+  const [noCompetition, setNoCompetition] = useState(false);
   const [maxTicket, setMaxTicket] = useState(0);
-  const [maxTicketPerson, setMaxTicketPerson] = useState(600);
-  const [ticketsSold, setTicketsSold] = useState(12000);
+  const [maxTicketPerson, setMaxTicketPerson] = useState(0);
+  const [ticketsSold, setTicketsSold] = useState(0);
   const [isValid, setIsValid] = useState(false);
+  const [ticketPrice, setTicketPrice] = useState(3.50);
+  const [compName, setCompName] = useState("");
+  const [compEnds, setCompEnds] = useState(null);
+  const [compDescription, setCompDescription] = useState(null);
+  const { id } = useParams();
+  const images = competitionImages[id] || [];
+
 
 
   useEffect(() => {
-    const loadMaxTickets = () => {
-      // API call later
-      setMaxTicket(60000);
+    const loadCompetition = async () => {
+      try {
+        const res = await fetch(`/api/v1/competitions/${id}`);
+        const competition = await res.json();
+
+        if (Object.keys(competition).length <= 0) {
+          setNoCompetition(true);
+          return
+        }
+        setCompetitionEnded(false);
+
+        setMaxTicket(competition?.max);
+        setMaxTicketPerson(competition?.user_max);
+        setTicketsSold(competition?.tickets_sold);
+        setTicketPrice(Number(competition?.ticket_price / 100).toFixed(2));
+        setCompName(competition?.name)
+        setCompEnds(competition?.ends_at);
+        setCompDescription(competition?.description);
+
+
+        if (competition?.tickets_sold >= competition?.max) {
+          setCompetitionEnded(true);
+        }
+      } catch (err) {
+        setNoCompetition(true);
+        throw new Error(err)
+      }
+
     };
 
-    loadMaxTickets();
+    loadCompetition();
   }, []);
 
   const renderer = ({days, hours, minutes, seconds, completed}) => {
@@ -66,14 +100,16 @@ const CurrentCompetition = () => {
     setIsValid(true);
   }
 
-  return (
-    <section>
-      <div className="container">
-        <div className="section-content">
-
-          <div className={styles['competition-container']}>
-            <div className={styles['grid-item']}>
-              <div className={styles['swiper-container']}>
+  return (<section>
+    <div className="container">
+      <div className="section-content">
+        {noCompetition && <div className={styles['no-competition-container']}>
+          <h2>{t('no-competition.title')}</h2>
+          <p>{t('no-competition.description')}</p>
+        </div>}
+        {!noCompetition && <div className={styles['competition-container']}>
+          <div className={styles['grid-item']}>
+            <div className={styles['swiper-container']}>
               <Swiper
                 loop
                 spaceBetween={10}
@@ -82,21 +118,10 @@ const CurrentCompetition = () => {
                 modules={[FreeMode, Navigation, Thumbs]}
                 className={styles.swiper}
               >
-                <SwiperSlide className={styles.slide}>
-                  <img src={photo1} alt="photo competition"/>
-                </SwiperSlide>
-                <SwiperSlide className={styles.slide}>
-                  <img src={photo2} alt="photo competition"/>
-                </SwiperSlide>
-                <SwiperSlide className={styles.slide}>
-                  <img src={photo3} alt="photo competition"/>
-                </SwiperSlide>
-                <SwiperSlide className={styles.slide}>
-                  <img src={photo4} alt="photo competition"/>
-                </SwiperSlide>
+                {images.map((src, i) =>   <SwiperSlide key={i} className={styles.slide}>
+                  <img src={src} alt="photo competition"/>
+                </SwiperSlide>)}
               </Swiper>
-
-
               <Swiper
                 onSwiper={setThumbsSwiper}
                 spaceBetween={10}
@@ -106,29 +131,26 @@ const CurrentCompetition = () => {
                 modules={[FreeMode, Navigation, Thumbs]}
                 className="swiper2"
               >
-                <SwiperSlide className={styles.slide}>
-                  <img src={photo1} alt="photo competition"/>
-                </SwiperSlide>
-                <SwiperSlide className={styles.slide}>
-                  <img src={photo2} alt="photo competition"/>
-                </SwiperSlide>
-                <SwiperSlide className={styles.slide}>
-                  <img src={photo3} alt="photo competition"/>
-                </SwiperSlide>
-                <SwiperSlide className={styles.slide}>
-                  <img src={photo4} alt="photo competition"/>
-                </SwiperSlide>
+                {images.map((src, i) =>   <SwiperSlide key={i} className={styles.slide}>
+                  <img src={src} alt="photo competition"/>
+                </SwiperSlide>)}
               </Swiper>
-              </div>
             </div>
-            <div className={styles['grid-item']}>
-              {isValid && <div className={styles['competition-details']}>
-                "test"
+          </div>
+          <div className={styles['grid-item']}>
+            <div className={styles['competition-details']}>
+              <h2 className={styles['header']}>{t('competition.title', {name: compName})}</h2>
+              {competitionEnded && <div className={styles['competition-ended']}>
+                <p>
+                  <Trans
+                    ns="global"
+                    i18nKey="current-competition.competition.competition-ended"
+                  />
+                </p>
               </div>}
-              {!isValid && <div className={styles['competition-details']}>
-                <h2 className={styles['header']}>{t('competition.title')}</h2>
+              {!competitionEnded && <>
                 <p className={styles['timer-info']}>{t('competition.competition-ends')}</p>
-                <Countdown renderer={renderer} date={new Date(2026, 2, 20, 23, 59)}/>
+                <Countdown renderer={renderer} date={new Date(compEnds)}/>
                 <p>{t("competition.competition-ends-2")}</p>
                 <div className={styles['ticket-container']}>
                   <div className={styles['ticket-entries']}>
@@ -148,19 +170,20 @@ const CurrentCompetition = () => {
                       <div style={{width: `${((ticketsSold / maxTicket) * 100)}%`}}></div>
                     </div>
                     <p><b>{ticketsSold}</b> {t('ticket-entry.tickets-sold')} </p>
-                    <h3 className={styles['price-container']}>{t('price')}: €2.50</h3>
+                    <h3 className={styles['price-container']}>{t('price')}: €{ticketPrice}</h3>
 
                   </div>
-                  <p className={styles['email-info']}>{t('email-info')}</p>
-                  <EmailForm setValidationEmail={handleSetValidationEmail} />
+                  {!isValid && <p className={styles['email-info']}>{t('email-info')}</p>}
+                  <EmailForm id={id} setValidationEmail={handleSetValidationEmail}/>
                 </div>
-              </div> }
+              </>
+              }
             </div>
           </div>
-        </div>
+        </div>}
       </div>
-    </section>
-  );
+    </div>
+  </section>);
 };
 
 export default CurrentCompetition;

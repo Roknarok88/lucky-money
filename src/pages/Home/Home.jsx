@@ -1,21 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {useTranslation} from "react-i18next";
+import {useTranslation, Trans} from "react-i18next";
 
 import logo from "../../assets/images/logo.png"
 import styles from "./Home.module.scss";
 
-const Home = props => {
+const Home = () => {
   const [t, i18n] = useTranslation('global', {keyPrefix: 'home'})
 
   return (
     <>
       <header className={styles.header}>
         <img src="/header.png" className="header-image" alt="header photo"/>
+        <img src="/mobile-header.png" className="mobile-header-image" alt="header photo"/>
         <div className={`container`}>
           <img className={styles.logo} src={logo} alt="lucky-money"/>
-          <h1 id="services" className={styles['header-title']}>{t('title')}</h1>
+          <h1 id="services" className={styles['header-title']}><Trans ns="global" i18nKey="home.title" /></h1>
           <p>{t('description')}</p>
         </div>
       </header>
@@ -30,7 +31,6 @@ const Home = props => {
                   <p>{t(`how-to-play.${index + 1}.description`)}</p>
                 </div>
               ))}
-
             </div>
           </div>
         </section>

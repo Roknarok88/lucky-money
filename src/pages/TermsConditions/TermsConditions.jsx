@@ -72,7 +72,7 @@ const TermsConditions = () => {
     <section>
       <div className="container">
         <div className="section-content">
-          <h2 className={styles.header}>Lucky Money – Terms and Conditions</h2>
+          <h2 className={styles.header}>{t('meta.title')}</h2>
         </div>
         <div className={styles['terms-content']}>
           <p>{t('introduction')}</p>
