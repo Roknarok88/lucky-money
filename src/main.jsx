@@ -23,7 +23,7 @@ i18next.init({
         es: {
             global: global_es
         },
-        sv: {
+        de: {
             global: global_de
         }
     }

@@ -1,323 +1,322 @@
 {
   "navbar": {
-    "current-competition": "Live Competitions",
-    "past-competition": "Past Competitions",
-    "how-to-play": "How to Play"
+    "current-competition": "Competiciones en Vivo",
+    "past-competition": "Competiciones Pasadas",
+    "how-to-play": "Cómo Jugar"
   },
   "home": {
-    "title": "Lucky Money<br>Take part in our raffle competitions!",
-    "description": "Win exceptional prizes, including luxury cars and high-end watches. Participation is simple and transparent: buy your tickets, enter the draw, and increase your chances with every ticket you purchase. Each competition offers a limited number of tickets per participant, ensuring a fair and exciting experience for everyone.",
+    "title": "Lucky Money<br>¡Participa en nuestras rifas!",
+    "description": "Gana premios excepcionales, incluidos coches de lujo y relojes de alta gama. La participación es simple y transparente: compra tus boletos, entra en el sorteo y aumenta tus probabilidades con cada boleto que compres. Cada competición ofrece un número limitado de boletos por participante, garantizando una experiencia justa y emocionante para todos.",
     "how-to-play": {
-      "title": "How to play",
+      "title": "Cómo jugar",
       "1": {
-        "subtitle": "Select the Competition:",
-        "description": "Enter the competition you want to participate and win."
+        "subtitle": "Selecciona la Competición:",
+        "description": "Entra en la competición en la que deseas participar y ganar."
       },
       "2": {
-        "subtitle": "Choose how many tickets:",
-        "description": "Decide how many tickets to buy in order to enter (each ticket has a maximum number per user)."
+        "subtitle": "Elige cuántos boletos:",
+        "description": "Decide cuántos boletos comprar para participar (cada boleto tiene un máximo por usuario)."
       },
       "3": {
-        "subtitle": "Increase Your Chances:",
-        "description": "More tickets = higher odds in the final draw."
+        "subtitle": "Aumenta tus Probabilidades:",
+        "description": "Más boletos = mayores probabilidades en el sorteo final."
       },
       "4": {
-        "subtitle": "Submit Your Entry:",
-        "description": "Confirm your selection and secure your spot in the draw."
+        "subtitle": "Envía tu Participación:",
+        "description": "Confirma tu selección y asegura tu lugar en el sorteo."
       }
     }
   },
   "live-competitions": {
-    "title": "Live Competitions",
+    "title": "Competiciones en Vivo",
     "no-competition": {
-      "title": "Upcoming Competitions Coming Soon!",
-      "description": "There are no live competitions available at this time. Stay connected through our social media channels for exclusive updates and announcements about future prize draws."
+      "title": "¡Próximas Competiciones Muy Pronto!",
+      "description": "No hay competiciones disponibles en este momento. Mantente conectado a través de nuestras redes sociales para actualizaciones y anuncios exclusivos sobre futuros sorteos."
     }
   },
   "current-competition": {
-    "title": "Join the Competition",
+    "title": "Únete a la Competición",
     "no-competition": {
-      "title": "Something went wrong!",
-      "description": "Try again later or refresh the page"
+      "title": "¡Algo salió mal!",
+      "description": "Inténtalo de nuevo más tarde o actualiza la página"
     },
     "competition": {
-      "title": "Win a {{name}}!",
-      "competition-ends": "The Competition Ends in:",
-      "competition-ends-2": "Once all entries are sold, the competition will close — so don’t miss out!",
-      "competition-ended": "Competition has ended! Stay connected through our social media channels for exclusive updates and announcements about future prize draws."
+      "title": "¡Gana un {{name}}!",
+      "competition-ends": "La competición termina en:",
+      "competition-ends-2": "Una vez que se vendan todas las participaciones, la competición se cerrará — ¡no te lo pierdas!",
+      "competition-ended": "¡La competición ha terminado! Mantente conectado a través de nuestras redes sociales para actualizaciones y anuncios exclusivos sobre futuros sorteos."
     },
     "countdown": {
-      "seconds": "Seconds",
-      "minutes": "Minutes",
-      "hours": "Hours",
-      "days": "Days"
+      "seconds": "Segundos",
+      "minutes": "Minutos",
+      "hours": "Horas",
+      "days": "Días"
     },
     "ticket-entry": {
-      "total-entries": "Total entries",
-      "tickets-sold": "Tickets sold",
-      "max-tickets": "per person"
+      "total-entries": "Participaciones totales",
+      "tickets-sold": "Boletos vendidos",
+      "max-tickets": "por persona"
     },
-    "price": "Price",
-    "email-info": "You need to validate your e-mail to enter the draw"
+    "price": "Precio",
+    "email-info": "Necesitas validar tu correo electrónico para participar en el sorteo"
   },
   "how-to-play": {
-    "title": "How To Play",
-    "step": "Step",
+    "title": "Cómo Jugar",
+    "step": "Paso",
     "section-1": {
-      "title": "Select the Competition",
-      "1": "Check the current competitions that are available.",
-      "2": "Choose the competition you want to participate in."
+      "title": "Selecciona la Competición",
+      "1": "Consulta las competiciones actuales disponibles.",
+      "2": "Elige la competición en la que deseas participar."
     },
     "section-2": {
-      "title": "Buy Your Tickets",
-      "1": "Each item has a maximum ticket limit per player.",
-      "2": "Enter the number of tickets you wish to purchase."
+      "title": "Compra tus Boletos",
+      "1": "Cada premio tiene un límite máximo de boletos por jugador.",
+      "2": "Introduce el número de boletos que deseas comprar."
     },
     "section-3": {
-      "title": "Complete Your Entry",
-      "1": "Confirm your ticket selection with your e-mail to check the eligibility.",
-      "2": "Purchase and submit your entry to be officially included in the draw. You will receive an e-mail with the purchase."
+      "title": "Completa tu Participación",
+      "1": "Confirma tu selección de boletos con tu correo electrónico para verificar la elegibilidad.",
+      "2": "Compra y envía tu participación para ser incluido oficialmente en el sorteo. Recibirás un correo electrónico con la compra."
     },
     "section-4": {
-      "title": "Understand Your Chances",
-      "1": "Every ticket increases your chance in the final draw.",
-      "2": "Purchasing more tickets improves your odds."
+      "title": "Comprende tus Probabilidades",
+      "1": "Cada boleto aumenta tu probabilidad en el sorteo final.",
+      "2": "Comprar más boletos mejora tus probabilidades."
     },
-    "tip": "Tip!",
-    "pro-tip-1": "Popular competitions can sell out quickly. Secure your tickets early to avoid missing your chance to participate!",
-    "pro-tip-2": "Check competitions regularly so you don’t miss newly added prizes and opportunities to participate!"
+    "tip": "¡Consejo!",
+    "pro-tip-1": "Las competiciones populares pueden agotarse rápidamente. ¡Asegura tus boletos temprano para no perder tu oportunidad de participar!",
+    "pro-tip-2": "Consulta las competiciones regularmente para no perder nuevos premios y oportunidades de participación."
   },
   "past-competition": {
-    "title": "There are no past competitions"
+    "title": "No hay competiciones pasadas"
   },
   "email-form": {
-    "email-placeholder": "Enter your e-mail",
-    "confirm-mail-placeholder": "Confirm your e-mail",
-    "name-placeholder": "Full Name",
-    "phone-placeholder": "Phone Number",
-    "submit": "Validate Your Email!",
-    "validating": "Validating",
-    "submit_buy": "Buy Tickets",
-    "validating_buy": "Buying",
+    "email-placeholder": "Introduce tu correo electrónico",
+    "confirm-mail-placeholder": "Confirma tu correo electrónico",
+    "name-placeholder": "Nombre completo",
+    "phone-placeholder": "Número de teléfono",
+    "submit": "¡Valida tu correo electrónico!",
+    "validating": "Validando",
+    "submit_buy": "Comprar Boletos",
+    "validating_buy": "Comprando",
     "error": {
-      "email-invalid": "Invalid E-mail Address",
-      "email-required": "E-mail Address Required",
-      "name-invalid": "E-mail Address Required",
-      "name-required": "E-mail Address Required",
-      "email-match": "E-mails must match",
-      "email-confirm": "Please confirm your E-mail",
-      "number-valid": "Ivl!",
-      "number-value": "Min 1.",
+      "email-invalid": "Dirección de correo electrónico inválida",
+      "email-required": "Correo electrónico requerido",
+      "name-invalid": "Correo electrónico requerido",
+      "name-required": "Correo electrónico requerido",
+      "email-match": "Los correos electrónicos deben coincidir",
+      "email-confirm": "Por favor confirma tu correo electrónico",
+      "number-valid": "¡Inválido!",
+      "number-value": "Mín 1.",
       "number-required": "Req.",
-      "number-max": "Max: {{userCanBuy}}",
-      "phone-valid": "Phone number too short",
-      "phone-required": "Telephone is required",
-      "competition_not_found": "Competition not found.",
-      "competition_ended": "This competition has ended.",
-      "competition_sold_out": "Not enough tickets available ({{remaining}} remaining).",
-      "user_limit_reached": "You can only buy {{remaining}} more ticket(s).",
-      "something-went-wrong": "Something went wrong",
-      "network-problem": "Network error. Please try again."
-
+      "number-max": "Máx: {{userCanBuy}}",
+      "phone-valid": "Número de teléfono demasiado corto",
+      "phone-required": "El teléfono es obligatorio",
+      "competition_not_found": "Competición no encontrada.",
+      "competition_ended": "Esta competición ha terminado.",
+      "competition_sold_out": "No hay suficientes boletos disponibles ({{remaining}} restantes).",
+      "user_limit_reached": "Solo puedes comprar {{remaining}} boleto(s) más.",
+      "something-went-wrong": "Algo salió mal",
+      "network-problem": "Error de red. Por favor inténtalo de nuevo."
     },
     "api_response": {
-      "success": "You have {{tickets}} ticket(s). You can buy up to {{userCanBuy}} more.",
+      "success": "Tienes {{tickets}} boleto(s). Puedes comprar hasta {{userCanBuy}} más.",
       "errors": {
-        "ticket_limit": "You have {{tickets}} ticket(s) — you've reached the limit of {{maxTickets}}.",
-        "failed": "Failed to check availability.",
-        "availability": "No tickets available for this competition."
+        "ticket_limit": "Tienes {{tickets}} boleto(s) — has alcanzado el límite de {{maxTickets}}.",
+        "failed": "Error al comprobar disponibilidad.",
+        "availability": "No hay boletos disponibles para esta competición."
       }
     }
   },
   "footer": {
-    "terms": "Terms & Conditions"
+    "terms": "Términos y Condiciones"
   },
   "terms": {
     "meta": {
-      "title": "Terms and Conditions",
-      "effectiveDate": "Effective Date: {{date}}"
+      "title": "Términos y Condiciones",
+      "effectiveDate": "Fecha de vigencia: {{date}}"
     },
-    "introduction": "By accessing, registering, or participating in any competition, raffle, or ticket-based promotion operated by Lucky Money, you agree to be legally bound by these Terms and Conditions.",
+    "introduction": "Al acceder, registrarte o participar en cualquier competición, rifa o promoción basada en boletos operada por Lucky Money, aceptas estar legalmente sujeto a estos Términos y Condiciones.",
     "sections": {
       "eligibility": {
-        "title": "1. Eligibility",
+        "title": "1. Elegibilidad",
         "points": [
-          "Participants must be at least 18 years old or the legal age of majority in their jurisdiction.",
-          "Participants must reside in a jurisdiction where such competitions are legally permitted.",
-          "All registration information must be accurate and truthful.",
-          "Lucky Money reserves the right to verify identity before awarding any prize.",
-          "Failure to meet eligibility requirements may result in disqualification without refund."
+          "Los participantes deben tener al menos 18 años o la mayoría de edad legal en su jurisdicción.",
+          "Los participantes deben residir en una jurisdicción donde dichas competiciones estén legalmente permitidas.",
+          "Toda la información de registro debe ser precisa y veraz.",
+          "Lucky Money se reserva el derecho de verificar la identidad antes de otorgar cualquier premio.",
+          "El incumplimiento de los requisitos de elegibilidad puede resultar en descalificación sin reembolso."
         ]
       },
       "participation": {
-        "title": "2. Participation & Ticket Limits",
+        "title": "2. Participación y Límites de Boletos",
         "points": [
-          "Each competition specifies maximum tickets per participant, total ticket allocation, and entry closing date.",
-          "Ticket limits apply per individual person, not per account.",
-          "Purchasing more tickets increases probability of selection but does not guarantee winning.",
-          "All ticket purchases are final unless a competition is canceled."
+          "Cada competición especifica el máximo de boletos por participante, asignación total y fecha de cierre.",
+          "Los límites de boletos se aplican por persona individual, no por cuenta.",
+          "Comprar más boletos aumenta la probabilidad de selección pero no garantiza ganar.",
+          "Todas las compras de boletos son finales salvo que una competición sea cancelada."
         ]
       },
       "antiFraud": {
-        "title": "3. Anti-Fraud & Fair Use Policy",
-        "intro": "The following actions are strictly prohibited:",
+        "title": "3. Política Antifraude y Uso Justo",
+        "intro": "Las siguientes acciones están estrictamente prohibidas:",
         "prohibited": [
-          "Creating multiple accounts to bypass ticket limits.",
-          "Using different email addresses, identities, payment methods, devices, or IP addresses to exceed per-person limits.",
-          "Using bots, scripts, automation tools, or software manipulation.",
-          "Payment fraud, chargebacks, or unauthorized transactions.",
-          "Identity misrepresentation.",
-          "Collusion or coordinated manipulation."
+          "Crear múltiples cuentas para eludir los límites de boletos.",
+          "Usar diferentes correos electrónicos, identidades, métodos de pago, dispositivos o direcciones IP para exceder los límites por persona.",
+          "Uso de bots, scripts, herramientas de automatización o manipulación de software.",
+          "Fraude de pago, devoluciones de cargo o transacciones no autorizadas.",
+          "Falsificación de identidad.",
+          "Colusión o manipulación coordinada."
         ],
-        "consequencesTitle": "If fraudulent activity is detected, Lucky Money reserves the right to:",
+        "consequencesTitle": "Si se detecta actividad fraudulenta, Lucky Money se reserva el derecho de:",
         "consequences": [
-          "Immediately disqualify the participant.",
-          "Void all associated tickets with or without refund.",
-          "Forfeit winnings.",
-          "Permanently suspend accounts.",
-          "Report activity to authorities where applicable."
+          "Descalificar inmediatamente al participante.",
+          "Anular todos los boletos asociados con o sin reembolso.",
+          "Confiscar premios.",
+          "Suspender permanentemente cuentas.",
+          "Reportar la actividad a las autoridades cuando corresponda."
         ],
-        "closing": "All fraud-related decisions are final."
+        "closing": "Todas las decisiones relacionadas con fraude son definitivas."
       },
       "drawProcess": {
-        "title": "4. Draw Process & Winner Selection",
+        "title": "4. Proceso de Sorteo y Selección del Ganador",
         "points": [
-          "Winners are selected through a transparent and random draw process.",
-          "Draws occur once ticket sales close or maximum allocation is reached.",
-          "Winners will be notified using registered contact information.",
-          "If a winner fails to respond within 15 days, a redraw may occur.",
-          "Identity verification may be required before prize release."
+          "Los ganadores se seleccionan mediante un proceso de sorteo transparente y aleatorio.",
+          "Los sorteos ocurren una vez que se cierran las ventas o se alcanza el máximo.",
+          "Los ganadores serán notificados usando la información de contacto registrada.",
+          "Si un ganador no responde dentro de 15 días, puede realizarse un nuevo sorteo.",
+          "Puede requerirse verificación de identidad antes de entregar el premio."
         ]
       },
       "prizes": {
-        "title": "5. Prizes",
+        "title": "5. Premios",
         "points": [
-          "Prizes are described accurately to the best of our ability.",
-          "Images are for illustrative purposes only.",
-          "Lucky Money reserves the right to substitute a prize with one of equal or greater value.",
-          "Prizes are non-transferable and non-exchangeable unless otherwise stated.",
-          "Winners are responsible for applicable taxes, registration fees, or legal compliance requirements."
+          "Los premios se describen con precisión según nuestro mejor conocimiento.",
+          "Las imágenes son solo ilustrativas.",
+          "Lucky Money se reserva el derecho de sustituir un premio por otro de igual o mayor valor.",
+          "Los premios no son transferibles ni intercambiables salvo que se indique lo contrario.",
+          "Los ganadores son responsables de impuestos, tasas de registro o requisitos legales aplicables."
         ]
       },
       "responsibleParticipation": {
-        "title": "6. Responsible Participation",
+        "title": "6. Participación Responsable",
         "points": [
-          "Participants must not purchase tickets beyond their financial means.",
-          "Participation does not guarantee winning.",
-          "Users are solely responsible for their spending decisions.",
-          "Lucky Money may impose spending limits or suspend accounts to protect users."
+          "Los participantes no deben comprar boletos más allá de sus posibilidades financieras.",
+          "La participación no garantiza ganar.",
+          "Los usuarios son responsables de sus decisiones de gasto.",
+          "Lucky Money puede imponer límites de gasto o suspender cuentas para proteger a los usuarios."
         ]
       },
       "payments": {
-        "title": "7. Payments, AML & Chargebacks",
+        "title": "7. Pagos, AML y Devoluciones",
         "points": [
-          "All payments must be made through approved payment processors.",
-          "Lucky Money reserves the right to conduct anti-money laundering and fraud screening.",
-          "Unjustified chargebacks may result in permanent suspension.",
-          "Suspicious financial activity may be reported to regulatory authorities."
+          "Todos los pagos deben realizarse mediante procesadores aprobados.",
+          "Lucky Money se reserva el derecho de realizar controles AML y antifraude.",
+          "Las devoluciones injustificadas pueden resultar en suspensión permanente.",
+          "La actividad financiera sospechosa puede ser reportada a autoridades regulatorias."
         ]
       },
       "accountTermination": {
-        "title": "8. Account Suspension & Termination",
+        "title": "8. Suspensión y Terminación de Cuenta",
         "points": [
-          "Accounts may be suspended or terminated for breach of these Terms.",
-          "Fraudulent behavior or regulatory compliance concerns may result in termination.",
-          "Termination decisions are made at Lucky Money's sole discretion."
+          "Las cuentas pueden ser suspendidas o terminadas por incumplimiento de estos términos.",
+          "El comportamiento fraudulento o preocupaciones regulatorias pueden resultar en terminación.",
+          "Las decisiones se toman a discreción exclusiva de Lucky Money."
         ]
       },
       "intellectualProperty": {
-        "title": "9. Intellectual Property",
+        "title": "9. Propiedad Intelectual",
         "points": [
-          "All website content, branding, logos, graphics, and competition materials are the exclusive property of Lucky Money.",
-          "Content may not be copied, reproduced, or distributed without written consent."
+          "Todo el contenido del sitio web, marca, logotipos, gráficos y materiales son propiedad exclusiva de Lucky Money.",
+          "El contenido no puede copiarse ni distribuirse sin consentimiento escrito."
         ]
       },
       "publicity": {
-        "title": "10. Publicity Rights",
+        "title": "10. Derechos de Publicidad",
         "points": [
-          "By accepting a prize, winners agree that Lucky Money may publish their first name and location.",
-          "Photographs or videos may be used for promotional purposes unless prohibited by law."
+          "Al aceptar un premio, los ganadores aceptan que Lucky Money publique su nombre y ubicación.",
+          "Fotos o videos pueden usarse con fines promocionales salvo prohibición legal."
         ]
       },
       "privacy": {
-        "title": "11. Privacy Policy",
+        "title": "11. Política de Privacidad",
         "subsections": {
           "dataCollected": {
-            "title": "11.1 Information Collected",
+            "title": "11.1 Información Recopilada",
             "points": [
-              "Name",
-              "Email address",
-              "Date of birth",
-              "Payment details"
+              "Nombre",
+              "Correo electrónico",
+              "Fecha de nacimiento",
+              "Datos de pago"
             ]
           },
           "dataUsage": {
-            "title": "11.2 How We Use Data",
+            "title": "11.2 Cómo Usamos los Datos",
             "points": [
-              "To process ticket purchases.",
-              "To conduct identity verification.",
-              "To prevent fraud.",
-              "To communicate competition updates.",
-              "To improve platform security."
+              "Procesar compras.",
+              "Verificar identidad.",
+              "Prevenir fraude.",
+              "Comunicar actualizaciones.",
+              "Mejorar seguridad."
             ]
           },
           "dataSharing": {
-            "title": "11.3 Data Sharing",
+            "title": "11.3 Compartición de Datos",
             "points": [
-              "We do not sell personal data.",
-              "Data may be shared with payment processors and fraud prevention services.",
-              "Information may be shared with authorities when legally required."
+              "No vendemos datos personales.",
+              "Puede compartirse con procesadores de pago y servicios antifraude.",
+              "Puede compartirse con autoridades cuando sea requerido."
             ]
           },
           "dataSecurity": {
-            "title": "11.4 Data Security",
+            "title": "11.4 Seguridad de Datos",
             "points": [
-              "We implement reasonable technical and organizational measures to protect personal data."
+              "Implementamos medidas técnicas y organizativas razonables."
             ]
           },
           "userRights": {
-            "title": "11.5 User Rights",
+            "title": "11.5 Derechos del Usuario",
             "points": [
-              "Right to access personal data.",
-              "Right to correct inaccurate data.",
-              "Right to request deletion where legally permitted.",
-              "Right to restrict or object to processing."
+              "Derecho de acceso.",
+              "Derecho de corrección.",
+              "Derecho de eliminación.",
+              "Derecho de restricción u oposición."
             ]
           }
         }
       },
       "liability": {
-        "title": "12. Limitation of Liability",
+        "title": "12. Limitación de Responsabilidad",
         "points": [
-          "Lucky Money is not responsible for technical failures or service interruptions.",
-          "We are not liable for indirect or consequential damages.",
-          "Participation is at the user's own risk."
+          "Lucky Money no es responsable de fallos técnicos.",
+          "No somos responsables de daños indirectos.",
+          "La participación es bajo el propio riesgo."
         ]
       },
       "modifications": {
-        "title": "13. Modifications",
+        "title": "13. Modificaciones",
         "points": [
-          "Lucky Money reserves the right to modify competitions or these Terms at any time.",
-          "Continued participation after updates constitutes acceptance of the revised Terms."
+          "Lucky Money puede modificar competiciones o términos en cualquier momento.",
+          "La participación continua implica aceptación."
         ]
       },
       "governingLaw": {
-        "title": "14. Governing Law & Dispute Resolution",
-        "content": "These Terms are governed by the laws of Spain. Disputes shall be resolved exclusively in the courts of that jurisdiction."
+        "title": "14. Ley Aplicable y Resolución de Disputas",
+        "content": "Estos términos se rigen por las leyes de España. Las disputas se resolverán exclusivamente en los tribunales de dicha jurisdicción."
       }
     },
     "contact": {
-      "title": "15. Contact Information",
-      "email": "Contact Email: {{email}}",
-      "website": "Website: {{website}}"
+      "title": "15. Información de Contacto",
+      "email": "Correo de contacto: {{email}}",
+      "website": "Sitio web: {{website}}"
     }
   },
   "payment-success": {
-    "title": "Congratulations!",
-    "description": "Thank you for your purchase — your transaction has been completed successfully.<br/><br/>You have bought <b>{{tickets}} ticket(s)</b> for the competition.<br/><br/>We’ve sent a confirmation email with your ticket details to <b>{{email}}</b>.<br/><br/>If you don’t see the email in your inbox within a few minutes, please check your spam or junk folder.<br/><br/>Good luck — we wish you the best! \uD83C\uDF40"
+    "title": "¡Felicidades!",
+    "description": "Gracias por tu compra — tu transacción se ha completado con éxito.<br/><br/>Has comprado <b>{{tickets}} boleto(s)</b> para la competición.<br/><br/>Hemos enviado un correo de confirmación con los detalles a <b>{{email}}</b>.<br/><br/>Si no lo ves en tu bandeja de entrada en unos minutos, revisa spam.<br/><br/>¡Buena suerte — te deseamos lo mejor! 🍀"
   },
   "payment-cancel": {
-    "title": "Payment Cancelled",
-    "description": "Hi, just letting you know that the payment has been cancelled successfully.<br/><br/>No charges have been processed. If you need to make the payment again or have any questions, please feel free to reach out."
+    "title": "Pago Cancelado",
+    "description": "Hola, solo para informarte que el pago ha sido cancelado correctamente.<br/><br/>No se han procesado cargos. Si necesitas realizar el pago nuevamente o tienes preguntas, no dudes en contactarnos."
   }
 }
