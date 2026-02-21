@@ -31,17 +31,23 @@ const CurrentCompetition = () => {
   const [compEnds, setCompEnds] = useState(null);
   const [compDescription, setCompDescription] = useState(null);
   const { id } = useParams();
-  const images = competitionImages[id] || [];
-
+  const [images, setImages] = useState(['']);
 
 
   useEffect(() => {
+
+    fetch(`/images/competition/${id}/images.json`)
+      .then((res) => res.json())
+      .then((files) =>
+        setImages(files.map((f) => `/images/competition/${id}/${f}`))
+      );
+
     const loadCompetition = async () => {
       try {
         const res = await fetch(`/api/v1/competitions/${id}`);
         const competition = await res.json();
 
-        if (Object.keys(competition).length <= 0) {
+        if (Object.keys(competition).length <= 3) {
           setNoCompetition(true);
           return
         }
@@ -63,16 +69,19 @@ const CurrentCompetition = () => {
         setNoCompetition(true);
         throw new Error(err)
       }
-
     };
 
     loadCompetition();
   }, []);
 
+  const handleComplete = () => {
+    setCompetitionEnded(true);
+  };
+
   const renderer = ({days, hours, minutes, seconds, completed}) => {
     if (completed) {
       // Render a completed state
-      setCompetitionEnded(true);
+    return
     } else {
       // Render a countdown
       return <div className={styles.counter}>
@@ -111,7 +120,6 @@ const CurrentCompetition = () => {
           <div className={styles['grid-item']}>
             <div className={styles['swiper-container']}>
               <Swiper
-                loop
                 spaceBetween={10}
                 navigation={true}
                 thumbs={{swiper: thumbsSwiper}}
@@ -150,7 +158,7 @@ const CurrentCompetition = () => {
               </div>}
               {!competitionEnded && <>
                 <p className={styles['timer-info']}>{t('competition.competition-ends')}</p>
-                <Countdown renderer={renderer} date={new Date(compEnds)}/>
+                <Countdown onComplete={handleComplete} renderer={renderer} date={new Date(compEnds)}/>
                 <p>{t("competition.competition-ends-2")}</p>
                 <div className={styles['ticket-container']}>
                   <div className={styles['ticket-entries']}>

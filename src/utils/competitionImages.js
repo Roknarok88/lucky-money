@@ -1,5 +1,5 @@
 const modules = import.meta.glob(
-  "/src/assets/images/competition/**/*.{png,jpg,jpeg,webp}",
+  "./images/competition/**/*.{png,jpg,jpeg,webp}",
   {
     eager: true,
     import: "default",

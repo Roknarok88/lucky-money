@@ -37,7 +37,7 @@ const LiveCompetitions = () => {
 
   function CompetitionCard({id, name, ticket_price, tickets_remaining}) {
     const images = competitionImages[id] || [];
-    const firstImage = images[0];
+    const firstImage = `/images/competition/${id}/photo1.jpg`;
 
     return (
       <NavLink className={styles['competition-card']} to={`/live-competitions/${id}`}>
